@@ -8,370 +8,241 @@ JOST: font-family: 'Jost', sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Maven+Pro:wght@700&display=swap");
 
 @font-face {
-    font-family: Maginors;
-    src: url(media/maginors-maginors-400.otf);
+  font-family: Maginors;
+  src: url(media/maginors-maginors-400.otf);
 }
 
 /*XS Dispositivos pequeños (menos de 576px)*/
 @media (max-width: 576px) {
-    #home {
-        background-image: url(media/skyboxhome.jpg);
-        height: 100vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
+  #home {
+    background-image: url(media/skyboxhome.jpg);
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
 
-    #historia {
-        background-image: url(media/faro-bastion.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #historia {
+    background-image: url(media/faro-bastion.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
-    #historia2 {
-        background-image: url(media/biblio-academia.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #historia2 {
+    background-image: url(media/biblio-academia.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
+  nav {
+    margin-top: 10px;
+  }
 
-    nav {
-        margin-top: 10px;
-    }
+  .navbar-brand {
+    font-size: 30px !important;
+    margin-left: 10px;
+  }
 
-    .navbar-brand {
-        font-size: 30px !important;
-        margin-left: 10px;
-    }
+  .navbar a {
+    color: white;
+    font-family: Maginors;
+  }
 
-    .navbar a {
-        color: white;
-        font-family: Maginors;
-    }
+  .navbar ul {
+    margin-right: 100px;
+  }
 
-    .navbar ul {
-        margin-right: 100px;
-    }
+  .texto1 {
+    font-family: "Jost", sans-serif;
+    color: white;
+    margin-top: 300px;
+  }
 
-    .texto1 {
-        font-family: 'Jost', sans-serif;
-        color: white;
-        margin-top: 300px;
-    }
+  .titulo {
+    font-family: Maginors;
+    color: white;
+  }
 
-    .titulo {
-        font-family: Maginors;
-        color: white;
-    }
+  /*CSS - historia*/
 
-    /*CSS - historia*/
+  .titulo-bastion {
+    font-family: Maginors;
+    color: white;
+    margin-top: 100px;
+  }
 
-    .titulo-bastion {
-        font-family: Maginors;
-        color: white;
-        margin-top: 100px;
-    }
+  .texto-bastion {
+    color: white;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 14px;
+  }
 
-    .texto-bastion {
-        color: white;
-        font-family: 'Maven Pro', sans-serif;
-        font-size: 14px;
-    }
+  .texto-siguiente p {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 14px;
+  }
 
-    .texto-siguiente p {
-        font-size: 15px;
-        text-align: center;
-        margin-left: 14px;
-    }
+  .logo-bastion {
+    margin-top: 80px;
+  }
 
-    .logo-bastion {
-        margin-top: 80px;
-    }
+  /*footer*/
 
-    /*footer*/
-
-    #footer-historia{
-        margin-top: 270px;
-    }
-    #footer-historia p {
-        font-family: Maginors;
-    }
-
-
+  #footer-historia {
+    margin-top: 270px;
+  }
+  #footer-historia p {
+    font-family: Maginors;
+  }
 }
 
 /*dispositvos grandes (desktops, 992px para arriba)*/
 @media (min-width: 992px) {
-    #home {
-        background-image: url(media/skyboxhome.jpg);
-        height: 100vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
+  #home {
+    background-image: url(media/skyboxhome.jpg);
+    height: 100vh;
+    overflow-x: hidden;
+  }
 
-    #historia {
-        background-image: url(media/plaza-bastion.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #historia {
+    background-image: url(media/plaza-bastion.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
-    #historia2 {
-        background-image: url(media/biblio-academia.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #historia2 {
+    background-image: url(media/biblio-academia.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
-    #personajes {
-        background-image: url(media/fondo-personajes-1.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #personajes {
+    background-image: url(media/fondo-personajes-1.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
+  nav {
+    margin-top: 10px;
+  }
 
-    nav {
-        margin-top: 10px;
-    }
+  .navbar-brand {
+    font-size: 30px !important;
+    margin-left: 100px;
+  }
 
-    .navbar-brand {
-        font-size: 30px !important;
-        margin-left: 100px;
-    }
+  .navbar a {
+    color: white;
+    font-family: Maginors;
+  }
 
-    .navbar a {
-        color: white;
-        font-family: Maginors;
-    }
+  .navbar ul {
+    margin-right: 100px;
+  }
 
-    .navbar ul {
-        margin-right: 100px;
-    }
+  .texto1 {
+    font-family: "Jost", sans-serif;
+    color: white;
+    margin-top: 300px;
+  }
 
-    .texto1 {
-        font-family: 'Jost', sans-serif;
-        color: white;
-        margin-top: 300px;
-    }
+  .titulo {
+    font-family: Maginors;
+    color: white;
+  }
 
-    .titulo {
-        font-family: Maginors;
-        color: white;
-    }
-
-    /*footer*/
-
-
+  /*footer*/
 }
 
 /*XL dispositivos extralargos (desktops grandes, 1200px para arriba)*/
 @media (min-width: 1200px) {
+  /*backgrounds*/
 
-    /*backgrounds*/
+  #home {
+    background-image: url(media/skyboxhome.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-    #home {
-        background-image: url(media/skyboxhome.jpg);
-        height: 100vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
+  #historia {
+    background-image: url(media/plaza-bastion.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
-    #historia {
-        background-image: url(media/plaza-bastion.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #historia2 {
+    background-image: url(media/biblio-academia.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
-    #historia2 {
-        background-image: url(media/biblio-academia.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  #personajes {
+    background-image: url(media/fondo-personajes-1.png);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
-    #personajes {
-        background-image: url(media/fondo-personajes-1.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
+  /*Header-navbar*/
 
-    /*Header-navbar*/
+  nav {
+    margin-top: 30px;
+  }
 
-    nav {
-        margin-top: 30px;
-    }
+  .navbar-brand {
+    font-size: 50px !important;
+    margin-left: 100px;
+  }
 
-    .navbar-brand {
-        font-size: 50px !important;
-        margin-left: 100px;
-    }
+  .navbar a {
+    color: white;
+    font-family: Maginors;
+    font-size: 15px;
+  }
 
-    .navbar a {
-        color: white;
-        font-family: Maginors;
-        font-size: 12px;
-    }
+  .navbar ul {
+    margin-right: 100px;
+  }
 
-    .navbar ul {
-        margin-right: 100px;
-    }
+  /*contenido-home*/
 
-    /*contenido-historia*/
+  .contenedor-grid {
+    padding: 100px;
+  }
 
-    .texto1 {
-        font-family: 'Jost', sans-serif;
-        color: white;
-        margin-top: 200px !important;
-        font-size: 30px !important;
+  .titulo {
+    font-family: Maginors;
+    color: white;
+    font-size: 150px;
+  }
 
-    }
+  .subtitulo1 {
+    font-family: Maginors;
+    color: white;
+  }
 
-    .titulo {
-        font-family: Maginors;
-        color: white;
-        font-size: 80px !important;
-    }
+  .contenedor-logos img{
+    padding: 20px;
+  }
 
-
-    /*CSS - historia*/
-
-    .logo-bastion {
-        margin-top: 0px;
-    }
-
-    .titulo-bastion {
-        font-family: Maginors;
-        color: white;
-        margin-top: 100px;
-    }
-
-    .texto-bastion {
-        color: white;
-        font-family: 'Maven Pro', sans-serif;
-        font-size: 18px;
-    }
-
-
-    /*footer*/
-
-    #footer-historia{
-        margin-top: 90px;
-    }
-    #footer-historia p {
-        font-family: Maginors;
-    }
-    
+  .contenedor-titulos h2{
+    font-family: Maginors;
+    color: white;
+  }
+  .contenedor-desc p{
+    font-family: 'Jost', sans-serif;
+    color: white;
+  }
 }
 
-
-/*XXL Dispositivos extra largos (desktops XL, 1400px para arriba)*/
-@media (min-width: 1400px) {
-
-    /*backgrounds*/
-
-    #home {
-        background-image: url(media/skyboxhome.jpg);
-        height: 100vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-
-    #historia {
-        background-image: url(media/plaza-bastion.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
-
-    #historia2 {
-        background-image: url(media/biblio-academia.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
-
-    #personajes {
-        background-image: url(media/fondo-personajes-1.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
-
-    #personajes2 {
-        background-image: url(media/fondo-personajes-2.png);
-        overflow-y: hidden;
-        overflow-x: hidden;
-        background-size: cover;
-    }
-    
-
-    /*Header-navbar*/
-
-    nav {
-        margin-top: 50px;
-    }
-
-    .navbar-brand {
-        margin-left: 100px;
-
-    }
-
-    .navbar a {
-        color: white;
-        font-family: Maginors;
-    }
-
-    .navbar ul {
-        margin-right: 100px;
-    }
-
-
-    /*Contenido-historia*/
-
-    .texto1 {
-        font-family: 'Jost', sans-serif;
-        color: white;
-        margin-top: 400px;
-        font-size: 80px;
-    }
-
-    .titulo {
-        font-family: Maginors;
-        color: white;
-        font-size: 150px;
-    }
-
-    /*CSS - historia*/
-
-    .titulo-bastion {
-        font-family: Maginors;
-        color: white;
-        margin-top: 100px;
-    }
-
-    .texto-bastion {
-        color: white;
-        font-family: 'Maven Pro', sans-serif;
-    }
-
-    /*footer*/
-
-    #footer-historia{
-        margin-top: 150px;
-    }
-    #footer-historia p {
-        font-family: Maginors;
-    }
-
-
-
+a {
+  text-decoration: none;
+  color: white;
 }
-
-a{
-    text-decoration: none;
-    color: white !important;
- }
