@@ -122,7 +122,6 @@ JOST: font-family: 'Jost', sans-serif;
 
   #personajes {
     background-image: url(media/fondo-personajes-1.png);
-    overflow-y: hidden;
     overflow-x: hidden;
     background-size: cover;
   }
@@ -184,8 +183,7 @@ JOST: font-family: 'Jost', sans-serif;
   }
 
   #personajes {
-    background-image: url(media/fondo-personajes-1.png);
-    overflow-y: hidden;
+    background-image: url(media/fondo-vertical-personajes-2.png);
     overflow-x: hidden;
     background-size: cover;
   }
@@ -270,6 +268,17 @@ JOST: font-family: 'Jost', sans-serif;
   footer span{
     font-family: 'Jost', sans-serif;
     color: white;
+  }
+
+  /*CONTENIDO PERSONAJES*/
+
+  .contenedor-personajes p{
+    font-family: 'Jost', sans-serif;
+    color: white;
+  }
+
+  .contenedor-personajes img{
+    
   }
 }
 
