@@ -241,12 +241,35 @@ JOST: font-family: 'Jost', sans-serif;
     color: white;
   }
 
+  /*CONTENIDO BASTION*/
+
+  #titulo-bastion{
+    font-family: "maginors", serif;
+    color: white;
+}
+
+#texto-bastion{
+    font-family: 'Jost', sans-serif;
+    color: white;
+}
+
+#contenido-historia1{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+
   /*footer*/
 
   footer a{
     font-family: 'Jost', sans-serif;
     color: white;
     
+  }
+
+  footer span{
+    font-family: 'Jost', sans-serif;
+    color: white;
   }
 }
 
