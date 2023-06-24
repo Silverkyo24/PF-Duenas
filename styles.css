@@ -240,6 +240,14 @@ JOST: font-family: 'Jost', sans-serif;
     font-family: 'Jost', sans-serif;
     color: white;
   }
+
+  /*footer*/
+
+  footer a{
+    font-family: 'Jost', sans-serif;
+    color: white;
+    
+  }
 }
 
 a {
