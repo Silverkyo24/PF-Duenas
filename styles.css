@@ -23,14 +23,12 @@ JOST: font-family: 'Jost', sans-serif;
 
   #historia {
     background-image: url(media/plaza-bastion.png);
-    overflow-y: hidden;
     overflow-x: hidden;
     background-size: cover;
   }
 
   #historia2 {
     background-image: url(media/biblio-academia.png);
-    overflow-y: hidden;
     overflow-x: hidden;
     background-size: cover;
   }
