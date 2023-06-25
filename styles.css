@@ -77,7 +77,7 @@ JOST: font-family: 'Jost', sans-serif;
   .titulo {
     font-family: Maginors;
     color: white;
-    font-size: 150px;
+    font-size: 120px;
   }
 
   .subtitulo1 {
@@ -96,6 +96,11 @@ JOST: font-family: 'Jost', sans-serif;
   .contenedor-desc p{
     font-family: 'Jost', sans-serif;
     color: white;
+  }
+
+  .contenedor-youtube{
+    overflow: hidden;
+	  width: 100%;
   }
 
   /*CONTENIDO BASTION*/
