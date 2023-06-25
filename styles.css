@@ -12,154 +12,7 @@ JOST: font-family: 'Jost', sans-serif;
   src: url(media/maginors-maginors-400.otf);
 }
 
-/*XS Dispositivos pequeños (menos de 576px)*/
-@media (max-width: 576px) {
-  #home {
-    background-image: url(media/skyboxhome.jpg);
-    height: 100vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
 
-  #historia {
-    background-image: url(media/faro-bastion.png);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  #historia2 {
-    background-image: url(media/biblio-academia.png);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  nav {
-    margin-top: 10px;
-  }
-
-  .navbar-brand {
-    font-size: 30px !important;
-    margin-left: 10px;
-  }
-
-  .navbar a {
-    color: white;
-    font-family: Maginors;
-  }
-
-  .navbar ul {
-    margin-right: 100px;
-  }
-
-  .texto1 {
-    font-family: "Jost", sans-serif;
-    color: white;
-    margin-top: 300px;
-  }
-
-  .titulo {
-    font-family: Maginors;
-    color: white;
-  }
-
-  /*CSS - historia*/
-
-  .titulo-bastion {
-    font-family: Maginors;
-    color: white;
-    margin-top: 100px;
-  }
-
-  .texto-bastion {
-    color: white;
-    font-family: "Maven Pro", sans-serif;
-    font-size: 14px;
-  }
-
-  .texto-siguiente p {
-    font-size: 15px;
-    text-align: center;
-    margin-left: 14px;
-  }
-
-  .logo-bastion {
-    margin-top: 80px;
-  }
-
-  /*footer*/
-
-  #footer-historia {
-    margin-top: 270px;
-  }
-  #footer-historia p {
-    font-family: Maginors;
-  }
-}
-
-/*dispositvos grandes (desktops, 992px para arriba)*/
-@media (min-width: 992px) {
-  #home {
-    background-image: url(media/skyboxhome.jpg);
-    height: 100vh;
-    overflow-x: hidden;
-  }
-
-  #historia {
-    background-image: url(media/plaza-bastion.png);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  #historia2 {
-    background-image: url(media/biblio-academia.png);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  #personajes {
-    background-image: url(media/fondo-personajes-1.png);
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  nav {
-    margin-top: 10px;
-  }
-
-  .navbar-brand {
-    font-size: 30px !important;
-    margin-left: 100px;
-  }
-
-  .navbar a {
-    color: white;
-    font-family: Maginors;
-  }
-
-  .navbar ul {
-    margin-right: 100px;
-  }
-
-  .texto1 {
-    font-family: "Jost", sans-serif;
-    color: white;
-    margin-top: 300px;
-  }
-
-  .titulo {
-    font-family: Maginors;
-    color: white;
-  }
-
-  /*footer*/
-}
-
-/*XL dispositivos extralargos (desktops grandes, 1200px para arriba)*/
-@media (min-width: 1200px) {
   /*backgrounds*/
 
   #home {
@@ -184,6 +37,12 @@ JOST: font-family: 'Jost', sans-serif;
 
   #personajes {
     background-image: url(media/fondo-vertical-personajes-2.png);
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+  #media{
+    background-image: url(media/fondo-nubes.png);
     overflow-x: hidden;
     background-size: cover;
   }
@@ -276,9 +135,8 @@ JOST: font-family: 'Jost', sans-serif;
     font-family: 'Jost', sans-serif;
     color: white;
   }
-}
 
-a {
+  a {
   text-decoration: none;
   color: white;
-}
+  }
