@@ -5,7 +5,7 @@ JOST: font-family: 'Jost', sans-serif;
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Maven+Pro:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 @font-face {
   font-family: Maginors;
@@ -13,37 +13,147 @@ JOST: font-family: 'Jost', sans-serif;
 }
 
 
-  /*backgrounds*/
+/*backgrounds*/
 
-  #home {
-    background-image: url(media/skyboxhome.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+#home {
+  background-image: url(media/skyboxhome.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#historia {
+  background-image: url(media/plaza-bastion.png);
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+#historia2 {
+  background-image: url(media/biblio-academia.png);
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+#personajes {
+  background-image: url(media/fondo-vertical-personajes-2.png);
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+#media {
+  background-image: url(media/fondo-nubes.png);
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+/*Query*/
+
+@media (min-width: 412px) and (max-width: 575px) {
 
   #historia {
-    background-image: url(media/plaza-bastion.png);
+    background-image: url(media/background-small-vertical-dv.png);
     overflow-x: hidden;
     background-size: cover;
   }
 
   #historia2 {
-    background-image: url(media/biblio-academia.png);
+    background-image: url(media/background-small-vertical-dv.png);
     overflow-x: hidden;
     background-size: cover;
   }
 
-  #personajes {
-    background-image: url(media/fondo-vertical-personajes-2.png);
-    overflow-x: hidden;
-    background-size: cover;
+  /*-----------------------------------------------Header-navbar-----------------------------------------------*/
+
+  nav {
+    margin-top: 30px;
   }
 
-  #media{
-    background-image: url(media/fondo-nubes.png);
-    overflow-x: hidden;
-    background-size: cover;
+  .navbar-brand {
+    font-size: 50px;
   }
+
+  .navbar a {
+    color: white;
+    font-family: Maginors;
+    font-size: 15px;
+  }
+
+  .navbar ul {
+    margin-right: 100px;
+  }
+
+  /*contenido-home*/
+
+  .contenedor-grid {
+    padding: 10px;
+  }
+
+  .titulo {
+    font-family: Maginors;
+    color: white;
+    font-size: 50px;
+    margin-left: 85px;
+    text-align: center;
+  }
+
+  .subtitulo1 {
+    font-family: Maginors;
+    color: white;
+  }
+
+  .contenedor-logos img {
+    padding: 20px;
+  }
+
+  .contenedor-titulos p {
+    font-family: Maginors;
+    color: white;
+  }
+
+  .contenedor-desc p {
+    font-family: 'Jost', sans-serif;
+    color: white;
+  }
+
+  .contenedor-youtube {
+    visibility: hidden;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  /*CONTENIDO BASTION-ACADEMIA*/
+
+  #titulo-bastion {
+    font-family: "maginors", serif;
+    color: white;
+  }
+
+  #texto-bastion {
+    font-family: 'Jost', sans-serif;
+    color: white;
+  }
+
+  #contenido-historia1 {
+    margin-left: 10px;
+    margin-top: 80px;
+  }
+
+  /*footer*/
+
+  footer a {
+    font-family: 'Jost', sans-serif;
+    color: white;
+
+  }
+
+  footer span {
+    visibility: hidden;
+    font-family: 'Jost', sans-serif;
+    color: white;
+
+  }
+}
+
+@media (min-width: 1200.99px) {
 
   /*Header-navbar*/
 
@@ -52,7 +162,7 @@ JOST: font-family: 'Jost', sans-serif;
   }
 
   .navbar-brand {
-    font-size: 50px !important;
+    font-size: 50px;
     margin-left: 100px;
   }
 
@@ -83,69 +193,73 @@ JOST: font-family: 'Jost', sans-serif;
     color: white;
   }
 
-  .contenedor-logos img{
+  .contenedor-logos img {
     padding: 20px;
   }
 
-  .contenedor-titulos h2{
+  .contenedor-titulos p {
     font-family: Maginors;
     color: white;
   }
-  .contenedor-desc p{
+
+  .contenedor-desc p {
     font-family: 'Jost', sans-serif;
     color: white;
   }
 
-  .contenedor-youtube{
+  .contenedor-youtube {
     overflow: hidden;
-	  width: 100%;
+    width: 100%;
   }
 
-  /*CONTENIDO BASTION*/
+  /*CONTENIDO BASTION-ACADEMIA*/
 
-  #titulo-bastion{
+  #titulo-bastion {
     font-family: "maginors", serif;
     color: white;
-}
+    font-size: 50px;
+  }
 
-#texto-bastion{
+  #texto-bastion {
     font-family: 'Jost', sans-serif;
     color: white;
-}
+    font-size: 20px;
+  }
 
-#contenido-historia1{
+  #contenido-historia1 {
     margin-left: 50px;
-    margin-top: 200px;
-}
+    margin-top: 100px;
+  }
 
-/*CONTENIDO MEDIA*/
+  /*CONTENIDO MEDIA*/
 
-#carrusel h5{
-  font-family: "maginors", serif;
-}
+  #carrusel h5 {
+    font-family: "maginors", serif;
+  }
 
 
   /*footer*/
 
-  footer a{
+  footer a {
     font-family: 'Jost', sans-serif;
     color: white;
-    
+
   }
 
-  footer span{
+  footer span {
     font-family: 'Jost', sans-serif;
     color: white;
   }
 
   /*CONTENIDO PERSONAJES*/
 
-  .contenedor-personajes p{
+  .contenedor-personajes p {
     font-family: 'Jost', sans-serif;
     color: white;
   }
+}
 
-  a {
+a {
   text-decoration: none;
   color: white;
-  }
+}
