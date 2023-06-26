@@ -1,19 +1,18 @@
-/*FUENTES
+/*-----------------------------------------------FUENTES-----------------------------------------------
 MAVEN PRO BOLD: font-family: 'Maven Pro', sans-serif;
 MAGINORS: font-family: Maginors; 
 JOST: font-family: 'Jost', sans-serif;
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 @font-face {
   font-family: Maginors;
   src: url(media/maginors-maginors-400.otf);
 }
 
-
-/*backgrounds*/
+/*-----------------------------------------------backgrounds-----------------------------------------------*/
 
 #home {
   background-image: url(media/skyboxhome.jpg);
@@ -34,41 +33,47 @@ JOST: font-family: 'Jost', sans-serif;
 }
 
 #personajes {
-  background-image: url(media/fondo-vertical-personajes-2.png);
-  overflow-x: hidden;
-  background-size: cover;
+  background: rgb(15, 175, 119);
+  background: radial-gradient(circle,
+      rgba(15, 175, 119, 1) 0%,
+      rgba(7, 65, 48, 1) 100%);
 }
 
 #media {
   background-image: url(media/fondo-nubes.png);
   overflow-x: hidden;
-  background-size: cover;
 }
 
-/*Query*/
+/*-----------------------------------------------Query 1-----------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
 
 @media (min-width: 412px) and (max-width: 575px) {
-
   #historia {
-    background-image: url(media/background-small-vertical-dv.png);
+    background-image: url(media/faro-bastion.png);
+    height: 100vh;
     overflow-x: hidden;
-    background-size: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
   }
 
   #historia2 {
-    background-image: url(media/background-small-vertical-dv.png);
+    background-image: url(media/comedor-academia.png);
+    height: 100vh;
     overflow-x: hidden;
-    background-size: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   /*-----------------------------------------------Header-navbar-----------------------------------------------*/
 
   nav {
-    margin-top: 30px;
+    background-color: black;
   }
 
-  .navbar-brand {
-    font-size: 50px;
+  .navbar button {
+    color: white;
   }
 
   .navbar a {
@@ -81,7 +86,7 @@ JOST: font-family: 'Jost', sans-serif;
     margin-right: 100px;
   }
 
-  /*contenido-home*/
+  /*-----------------------------------------------contenido-home-----------------------------------------------*/
 
   .contenedor-grid {
     padding: 10px;
@@ -93,6 +98,7 @@ JOST: font-family: 'Jost', sans-serif;
     font-size: 50px;
     margin-left: 85px;
     text-align: center;
+    margin-top: 20px;
   }
 
   .subtitulo1 {
@@ -110,7 +116,7 @@ JOST: font-family: 'Jost', sans-serif;
   }
 
   .contenedor-desc p {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
   }
 
@@ -120,7 +126,7 @@ JOST: font-family: 'Jost', sans-serif;
     width: 100%;
   }
 
-  /*CONTENIDO BASTION-ACADEMIA*/
+  /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
 
   #titulo-bastion {
     font-family: "maginors", serif;
@@ -128,7 +134,7 @@ JOST: font-family: 'Jost', sans-serif;
   }
 
   #texto-bastion {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
   }
 
@@ -137,32 +143,52 @@ JOST: font-family: 'Jost', sans-serif;
     margin-top: 80px;
   }
 
-  /*footer*/
+  /*-----------------------------------------------contenido personajes-----------------------------------------------*/
+
+  
+
+  /*-----------------------------------------------Contenido Media-----------------------------------------------*/
+
+  .titulo-media {
+    font-family: "maginors", serif;
+    color: white;
+  }
+
+  /*-----------------------------------------------footer-----------------------------------------------*/
 
   footer a {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
-
   }
 
   footer span {
     visibility: hidden;
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
-
   }
 }
 
-@media (min-width: 1200.99px) {
 
-  /*Header-navbar*/
+
+
+
+
+
+
+/*-----------------------------------------------Query 2-----------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+
+
+@media (min-width: 1200.99px) {
+  /*-----------------------------------------------Header-navbar-----------------------------------------------*/
 
   nav {
     margin-top: 30px;
   }
 
   .navbar-brand {
-    font-size: 50px;
     margin-left: 100px;
   }
 
@@ -176,7 +202,7 @@ JOST: font-family: 'Jost', sans-serif;
     margin-right: 100px;
   }
 
-  /*contenido-home*/
+  /*-----------------------------------------------contenido-home-----------------------------------------------*/
 
   .contenedor-grid {
     padding: 100px;
@@ -203,7 +229,7 @@ JOST: font-family: 'Jost', sans-serif;
   }
 
   .contenedor-desc p {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
   }
 
@@ -212,7 +238,7 @@ JOST: font-family: 'Jost', sans-serif;
     width: 100%;
   }
 
-  /*CONTENIDO BASTION-ACADEMIA*/
+  /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
 
   #titulo-bastion {
     font-family: "maginors", serif;
@@ -221,7 +247,7 @@ JOST: font-family: 'Jost', sans-serif;
   }
 
   #texto-bastion {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
     font-size: 20px;
   }
@@ -231,30 +257,33 @@ JOST: font-family: 'Jost', sans-serif;
     margin-top: 100px;
   }
 
-  /*CONTENIDO MEDIA*/
+  /*-----------------------------------------------CONTENIDO MEDIA-----------------------------------------------*/
+
+  .titulo-media {
+    font-family: "maginors", serif;
+    color: white;
+  }
 
   #carrusel h5 {
     font-family: "maginors", serif;
   }
 
-
-  /*footer*/
+  /*-----------------------------------------------footer-----------------------------------------------*/
 
   footer a {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
-
   }
 
   footer span {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
   }
 
-  /*CONTENIDO PERSONAJES*/
+  /*-----------------------------------------------CONTENIDO PERSONAJES-----------------------------------------------*/
 
   .contenedor-personajes p {
-    font-family: 'Jost', sans-serif;
+    font-family: "Jost", sans-serif;
     color: white;
   }
 }
