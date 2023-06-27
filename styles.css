@@ -42,6 +42,7 @@ JOST: font-family: 'Jost', sans-serif;
 #media {
   background-image: url(media/fondo-nubes.png);
   overflow-x: hidden;
+  background-size: cover;
 }
 
 /*-----------------------------------------------Query 1-----------------------------------------------*/
@@ -56,6 +57,7 @@ JOST: font-family: 'Jost', sans-serif;
     overflow-y: hidden;
     background-repeat: no-repeat;
   }
+
 
   #historia2 {
     background-image: url(media/comedor-academia.png);
