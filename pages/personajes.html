@@ -1,145 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../sass/styles.css" />
+    <title>Personajes</title>
+    <link rel="icon" href="../media/logorfa.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--BS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../styles.css" />
-  <title>Personajes</title>
-  <link rel="icon" href="../media/logorfa.png" />
-</head>
-
-<body id="personajes">
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand fs-1" href="../index.html">re</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages/bastion.html">BASTION SURCAMAREAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/academia.html">ACADEMIA AURALIS-HEXT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/personajes.html">PERSONAJES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/media.html">media</a>
-            </li>
-          </ul>
+  <body id="personajes">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1" href="../index.html">re</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="../pages/bastion.html"
+                  >BASTION SURCAMAREAS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/academia.html"
+                  >ACADEMIA AURALIS-HEXT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/personajes.html"
+                  >PERSONAJES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/media.html">media</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="tarjeta" class="container-fluid">
+      <div class="row m-3">
+        <div class="card text-center col-xl m-3">
+          <img
+            src="../media/sin-marco-nemus.svg"
+            class="img-fluid m-2"
+            alt="nemus"
+          />
+          <div class="card-body">
+            <h2 class="card-title">Capitán "Nemus"</h2>
+            <p class="card-text fs-5 text-start">
+              El Capitán "Nemus" es el lider del Bastión Surcamareas y uno de
+              los mas importantes corsarios de Kul Tiras. Comanda su nave
+              insignia El Nautilus y controla gran parte del comercio Kultirano
+              de Azerita en el Mare Magnum y otros dominios de Azeroth.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center col-xl m-3">
+          <img
+            src="../media/sin-marco-irina.svg"
+            class="img-fluid m-2"
+            alt="nemus"
+          />
+          <div class="card-body">
+            <h2 class="card-title fs-2">Irina Norwington</h2>
+            <p class="card-text fs-5 text-start">
+              Irina es una aprendiz Sabiomar del Monasterio Canto Tormenta.
+              Luego de la traicion de su antiguo maestro Silas Astromar, Se unio
+              al equipo de viajeros reunidos por el Capitan "Nemus" para hacer
+              frente a los peligros abisales en el Gran Mar que corrompieron su
+              maestro.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center col-xl m-3">
+          <img
+            src="../media/sin-marco-rogan.svg"
+            class="img-fluid m-2"
+            alt="nemus"
+          />
+          <div class="card-body">
+            <h2 class="card-title fs-2">Rogan</h2>
+            <p class="card-text fs-5 text-start">
+              El éxtasis que esta amalgama de conocimientos y sangres
+              esperimenta en el campo de batalla no tiene igual, siempre
+              buscando la accion para poner a prueba sus habilidades y asi
+              mejorarse, buscando la perfección y una batalla que lo deje
+              totalmente satisfecho.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center col-xl m-3">
+          <img
+            src="../media/sin-marco-hjindrunn.svg"
+            class="img-fluid m-2"
+            alt="nemus"
+          />
+          <div class="card-body">
+            <h2 class="card-title fs-2">Hjindrunn Fuerteambar</h2>
+            <p class="card-text fs-5 text-start">
+              Hjindrunn es un enano originario de Loch Modan, recorrio Azeroth y
+              otros mundos junto a la caravana de Hemet Nesignwary cazando
+              peligrosas bestias, ahora vive junto a su esposa Vidra en su
+              propia taberna "La Cabra Coja" en el Bastión
+            </p>
+          </div>
+        </div>
+        <div class="card text-center col-xl m-3">
+          <img
+            src="../media/sin-marco-taoshi.svg"
+            class="img-fluid m-2"
+            alt="nemus"
+          />
+          <div class="card-body">
+            <h2 class="card-title fs-2">Taoshi</h2>
+            <p class="card-text fs-5 text-start">
+              Taoshi es una monje médica cuyos dotes de la curación y afinidad
+              con la herbolaria la llevaron a formar parte del Bastión
+              Surcamareas. Su origen, asi como sus intereses son un misterio,
+              sin embargo; sus dotes misticos de curación son tan efectivos como
+              su sentido de lealtad al Capitan "Nemus".
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <section id="tarjeta" class="container-fluid">
-    <div class="row m-3">
-      <div class="card text-center col-xl m-3">
-        <img src="../media/sin-marco-nemus.svg" class="img-fluid m-2" alt="nemus" />
-        <div class="card-body">
-          <h2 class="card-title">Capitán "Nemus"</h2>
-          <p class="card-text fs-5 text-start">
-            El Capitán "Nemus" es el lider del Bastión Surcamareas y uno de
-            los mas importantes corsarios de Kul Tiras. Comanda su nave
-            insignia El Nautilus y controla gran parte del comercio Kultirano
-            de Azerita en el Mare Magnum y otros dominios de Azeroth.
-          </p>
-        </div>
-      </div>
-      <div class="card text-center col-xl m-3">
-        <img src="../media/sin-marco-irina.svg" class="img-fluid m-2" alt="nemus" />
-        <div class="card-body">
-          <h2 class="card-title fs-2">Irina Norwington</h2>
-          <p class="card-text fs-5 text-start">
-            Irina es una aprendiz Sabiomar del Monasterio Canto Tormenta. Luego
-            de la traicion de su antiguo maestro Silas Astromar, Se unio al
-            equipo de viajeros reunidos por el Capitan "Nemus" para hacer frente
-            a los peligros abisales en el Gran Mar que corrompieron su maestro.
-          </p>
-        </div>
-      </div>
-      <div class="card text-center col-xl m-3">
-        <img src="../media/sin-marco-rogan.svg" class="img-fluid m-2" alt="nemus" />
-        <div class="card-body">
-          <h2 class="card-title fs-2">Rogan</h2>
-          <p class="card-text fs-5 text-start">
-            El éxtasis que esta amalgama de conocimientos y sangres esperimenta
-            en el campo de batalla no tiene igual, siempre buscando la accion
-            para poner a prueba sus habilidades y asi mejorarse, buscando la
-            perfección y una batalla que lo deje totalmente satisfecho.
-          </p>
-        </div>
-      </div>
-      <div class="card text-center col-xl m-3">
-        <img src="../media/sin-marco-hjindrunn.svg" class="img-fluid m-2" alt="nemus" />
-        <div class="card-body">
-          <h2 class="card-title fs-2">Hjindrunn Fuerteambar</h2>
-          <p class="card-text fs-5 text-start">
-            Hjindrunn es un enano originario de Loch Modan, recorrio Azeroth y
-            otros mundos junto a la caravana de Hemet Nesignwary cazando
-            peligrosas bestias, ahora vive junto a su esposa Vidra en su propia
-            taberna "La Cabra Coja" en el Bastión
-          </p>
-        </div>
-      </div>
-      <div class="card text-center col-xl m-3">
-        <img src="../media/sin-marco-taoshi.svg" class="img-fluid m-2" alt="nemus" />
-        <div class="card-body">
-          <h2 class="card-title fs-2">Taoshi</h2>
-          <p class="card-text fs-5 text-start">
-            Taoshi es una monje médica cuyos dotes de la curación y afinidad con
-            la herbolaria la llevaron a formar parte del Bastión Surcamareas. Su
-            origen, asi como sus intereses son un misterio, sin embargo; sus
-            dotes misticos de curación son tan efectivos como su sentido de
-            lealtad al Capitan "Nemus".
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container-fluid row justify-items-center">
+    </section>
+    <footer>
+      <div class="container-fluid row justify-items-center">
         <div class="row">
-            <div class="col">
-                <img class="img-fluid" src="../media/barra-footer-2.svg" class="img-fluid" alt="img-footer" />
-            </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="../media/barra-footer-2.svg"
+              class="img-fluid"
+              alt="img-footer"
+            />
+          </div>
         </div>
         <div class="row p-3">
-            <div class="col-1 text-center">
-                <img class="img-fluid" src="../media/discord-svg.svg" alt="discord-logo" />
-            </div>
-            <div class="col">
-                <a href="#">placeholder/link/discord.gg</a>
-            </div>
+          <div class="col-1 text-center">
+            <img
+              class="img-fluid"
+              src="../media/discord-svg.svg"
+              alt="discord-logo"
+            />
+          </div>
+          <div class="col">
+            <a href="#">placeholder/link/discord.gg</a>
+          </div>
         </div>
         <div class="row p-3">
-            <div class="col-1 text-center">
-                <img class="img-fluid" src="../media/icon-insta.svg" alt="insta-logo" />
-            </div>
-            <div class="col">
-                <a href="#">placeholder/link/instagram.io</a>
-            </div>
-            <div class="col-3">
-                <span>
-                    Reborn from Ashes - Comunidad de rol Powered by
-                    <a href="https://epsilonwow.net/">Epsilon</a>
-                </span>
-            </div>
+          <div class="col-1 text-center">
+            <img
+              class="img-fluid"
+              src="../media/icon-insta.svg"
+              alt="insta-logo"
+            />
+          </div>
+          <div class="col">
+            <a href="#">placeholder/link/instagram.io</a>
+          </div>
+          <div class="col-3">
+            <span>
+              Reborn from Ashes - Comunidad de rol Powered by
+              <a href="https://epsilonwow.net/">Epsilon</a>
+            </span>
+          </div>
         </div>
-    </div>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
-</body>
-
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
