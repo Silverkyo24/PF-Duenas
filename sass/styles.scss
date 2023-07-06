@@ -14,7 +14,7 @@
 /*-----------------------------------------------backgrounds-----------------------------------------------*/
 
 #home {
-    background-color: #000000;
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -51,8 +51,9 @@
 @media (min-width: 412px) and (max-width: 575px) {
     #home {
         background-image: url(../media/fondo-home-412.png);
+        overflow-x: hidden;
 
-        img {
+        .img-azeroth{
             visibility: hidden;
         }
     }
@@ -80,7 +81,9 @@
     /*-----------------------------------------------Header-navbar-----------------------------------*/
 
     nav {
-        background-color: black;
+        background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
     }
 
     .navbar {
@@ -105,13 +108,16 @@
         padding: 10px;
     }
 
+    .fondo{
+        display: none;
+        visibility: hidden;
+    }
+
     .titulo {
         font-family: Maginors;
         color: white;
         font-size: 50px;
-        margin-left: 85px;
         text-align: center;
-        margin-top: 20px;
     }
 
     .subtitulo1 {
@@ -129,6 +135,7 @@
         p {
             font-family: Maginors;
             color: white;
+            visibility: hidden;
         }
     }
 
@@ -137,12 +144,6 @@
             font-family: "Jost", sans-serif;
             color: white;
         }
-    }
-
-    .contenedor-youtube {
-        visibility: hidden;
-        overflow: hidden;
-        width: 100%;
     }
 
     /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
@@ -201,9 +202,10 @@
     /*-----------------------------------------------Header-navbar-----------------------------------------------*/
 
     nav {
-        background: black;
-        border: 1.5px solid rgba(255, 255, 255, 0.18);
-        backdrop-filter: blur(4px);
+        background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        
     }
 
     .navbar-brand {
@@ -212,7 +214,7 @@
 
     .navbar {
         a {
-            color: #AAAFD0;
+            color: #ffffff;
             font-family: Maginors;
             font-size: 15px;
         }
@@ -223,21 +225,19 @@
     }
 
     /*-----------------------------------------------contenido-home-----------------------------------------------*/
-
-    .contenedor-grid {
-        img {
-            position: relative;
+    
+    .contenedor-grid{
+        img{
+            position: absolute;
+            width: 100%;
         }
     }
 
-    .titulo {
+     .titulo {
         font-family: Maginors;
         color: white;
         font-size: 120px;
-        position: absolute;
-        margin-top: 650px;
-        margin-left: 300px;
-        
+        margin-top: 600px;
     }
 
     .subtitulo1 {
@@ -265,11 +265,6 @@
             font-family: "Jost", sans-serif;
             color: white;
         }
-    }
-
-    .contenedor-youtube {
-        overflow: hidden;
-        width: 100%;
     }
 
 

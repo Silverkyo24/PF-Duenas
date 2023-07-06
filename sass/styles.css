@@ -10,7 +10,7 @@
 }
 /*-----------------------------------------------backgrounds-----------------------------------------------*/
 #home {
-  background-color: #000000;
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -44,8 +44,9 @@
 @media (min-width: 412px) and (max-width: 575px) {
   #home {
     background-image: url(../media/fondo-home-412.png);
+    overflow-x: hidden;
   }
-  #home img {
+  #home .img-azeroth {
     visibility: hidden;
   }
   #historia {
@@ -65,7 +66,10 @@
   }
   /*-----------------------------------------------Header-navbar-----------------------------------*/
   nav {
-    background-color: black;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
   }
   .navbar button {
     color: #AAAFD0;
@@ -82,13 +86,15 @@
   .contenedor-grid {
     padding: 10px;
   }
+  .fondo {
+    display: none;
+    visibility: hidden;
+  }
   .titulo {
     font-family: Maginors;
     color: white;
     font-size: 50px;
-    margin-left: 85px;
     text-align: center;
-    margin-top: 20px;
   }
   .subtitulo1 {
     font-family: Maginors;
@@ -100,15 +106,11 @@
   .contenedor-titulos p {
     font-family: Maginors;
     color: white;
+    visibility: hidden;
   }
   .contenedor-desc p {
     font-family: "Jost", sans-serif;
     color: white;
-  }
-  .contenedor-youtube {
-    visibility: hidden;
-    overflow: hidden;
-    width: 100%;
   }
   /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
   #titulo-bastion {
@@ -146,8 +148,8 @@
 @media (min-width: 1200.99px) {
   /*-----------------------------------------------Header-navbar-----------------------------------------------*/
   nav {
-    background: black;
-    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     -webkit-backdrop-filter: blur(4px);
             backdrop-filter: blur(4px);
   }
@@ -155,7 +157,7 @@
     margin-left: 100px;
   }
   .navbar a {
-    color: #AAAFD0;
+    color: #ffffff;
     font-family: Maginors;
     font-size: 15px;
   }
@@ -164,15 +166,14 @@
   }
   /*-----------------------------------------------contenido-home-----------------------------------------------*/
   .contenedor-grid img {
-    position: relative;
+    position: absolute;
+    width: 100%;
   }
   .titulo {
     font-family: Maginors;
     color: white;
     font-size: 120px;
-    position: absolute;
-    margin-top: 650px;
-    margin-left: 300px;
+    margin-top: 600px;
   }
   .subtitulo1 {
     font-family: Maginors;
@@ -190,10 +191,6 @@
   .contenedor-desc p {
     font-family: "Jost", sans-serif;
     color: white;
-  }
-  .contenedor-youtube {
-    overflow: hidden;
-    width: 100%;
   }
   /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
   #titulo-bastion {
