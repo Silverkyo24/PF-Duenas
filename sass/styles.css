@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @font-face {
   font-family: Maginors;
-  src: url(media/maginors-maginors-400.otf);
+  src: url(../media/maginors-maginors-400.otf);
 }
 /*-----------------------------------------------backgrounds-----------------------------------------------*/
 #home {
