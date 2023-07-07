@@ -14,14 +14,15 @@
 /*-----------------------------------------------backgrounds-----------------------------------------------*/
 
 #home {
-    background-color: black;
+    background-color: rgb(2, 1, 31);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #historia {
     background-image: url(../media/plaza-bastion.png);
-    overflow-x: hidden;
+    overflow: hidden;
+    height: 100vh;
     background-size: cover;
 }
 
@@ -29,6 +30,7 @@
     background-image: url(../media/biblio-academia.png);
     overflow-x: hidden;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #personajes {
@@ -39,8 +41,8 @@
 }
 
 #media {
-    background-image: url(media/fondo-nubes.png);
-    overflow-x: hidden;
+    background-image: url(../media/fondo-nubes.png);
+    overflow: hidden;
     background-size: cover;
 }
 
@@ -49,18 +51,22 @@
 /*----------------------------------------------------------------------------------------------*/
 
 @media (min-width: 412px) and (max-width: 575px) {
+    /*html{
+        overflow: hidden;
+    }*/
+
     #home {
         background-image: url(../media/fondo-home-412.png);
-        overflow-x: hidden;
+        overflow: hidden;
 
         .img-azeroth{
-            visibility: hidden;
+            display: none;
         }
     }
 
 
     #historia {
-        background-image: url(media/faro-bastion.png);
+        background-image: url(../media/faro-bastion.png);
         height: 100vh;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -69,7 +75,7 @@
 
 
     #historia2 {
-        background-image: url(media/comedor-academia.png);
+        background-image: url(../media/comedor-academia.png);
         height: 100vh;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -88,11 +94,11 @@
 
     .navbar {
         button {
-            color: #AAAFD0;
+            color: #ffffff;
         }
 
         a {
-            color: #AAAFD0;
+            color: #ffffff;
             font-family: Maginors;
             font-size: 15px;
         }
@@ -178,16 +184,43 @@
     /*-----------------------------------------------footer-----------------------------------------------*/
 
     footer {
+        background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        border-top: solid 1px white;
+
         a {
             font-family: "Jost", sans-serif;
             color: white;
         }
 
-        span {
-            visibility: hidden;
-            font-family: "Jost", sans-serif;
-            color: white;
+        .ti-logo{
+            font-family: Maginors;
+            color: #ffffff;
+            margin-top: 30px;
+            font-size: 20px;
         }
+
+        .sub-logo{
+            font-family: "Jost", sans-serif;
+            color: #ffffff;
+            font-size: 10px;  
+        }
+
+        .discord{
+            font-family: "Jost", sans-serif;
+            color: #ffffff;
+            font-size: 10px;   
+        }
+
+        img{
+            margin-top: 20px;
+        }
+
+        .discord-img{
+            display: none;
+        }
+    
     }
 
 }
@@ -243,7 +276,7 @@
     .subtitulo1 {
         font-family: Maginors;
         color: white;
-        margin-top: 100px;
+        margin-top: 200px;
     }
 
     .contenedor-logos {
@@ -301,14 +334,37 @@
     /*-----------------------------------------------footer-----------------------------------------------*/
 
     footer {
+        background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        border-top: solid 1px white;
+
+        
         a {
             font-family: "Jost", sans-serif;
             color: white;
         }
 
-        span {
+        .ti-logo{
+            font-family: Maginors;
+            color: #ffffff;
+            margin-top: 40px;
+            font-size: 25px;
+        }
+
+        .sub-logo{
             font-family: "Jost", sans-serif;
-            color: white;
+            color: #ffffff;  
+        }
+
+        img{
+            margin-top: 30px;
+        }
+
+        .discord{
+            margin-top: 30px;
+            font-family: "Jost", sans-serif;
+            color: #ffffff;   
         }
     }
 
