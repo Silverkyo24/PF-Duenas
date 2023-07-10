@@ -161,7 +161,7 @@
     /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
 
     #titulo-bastion {
-        font-family: "maginors", serif;
+        font-family: Maginors;
         color: white;
     }
 
@@ -396,7 +396,41 @@
     }
 }
 
+/*-----------------------------------------------Query 3-----------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1919px) {
+
+    #historia{
+        footer {
+        background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        border-top: solid 1px white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin-top: 300px;
+        }
+    }
+
+    #historia2{
+        footer {
+            background: rgba(0, 0, 0, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            border-top: solid 1px white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 350px;  
+    }
+}
+
 a {
     text-decoration: none;
     color: white;
+}
 }
