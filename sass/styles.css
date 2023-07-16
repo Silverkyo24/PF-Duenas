@@ -8,321 +8,94 @@
   font-family: Maginors;
   src: url(../media/maginors-maginors-400.otf);
 }
-/*-----------------------------------------------backgrounds-----------------------------------------------*/
+/*CONTENIDO GRAL*/
+html {
+  overflow-x: hidden;
+}
+
+.navbar a {
+  font-family: Maginors;
+  color: #ffffff;
+  font-size: 13px;
+}
+.navbar .nav-link:hover {
+  color: #A228DF;
+}
+
+#footer .footer-top {
+  border-top: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+  padding: 30px 0 30px 0;
+}
+#footer p {
+  font-family: Maginors;
+  color: #ffffff;
+}
+#footer a {
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*HOME*/
 #home {
-  background-color: rgb(2, 1, 31);
-  background-size: cover;
+  background-image: url(../media/media-selva2.png);
   background-repeat: no-repeat;
 }
-
-#historia {
-  background-image: url(../media/plaza-bastion.png);
-  overflow-x: hidden;
-  height: 100vh;
-  background-size: cover;
+#home .titulo {
+  font-family: Maginors;
+  color: #ffffff;
+  margin-top: 400px;
+}
+#home .subtitulo {
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+}
+#home .imagenes {
+  margin-top: 20px;
+}
+#home .titulo-imagenes {
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+}
+#home .contenedor-banner1 img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+#home .contenedor-banner1 .capitulo-1 {
+  font-family: Maginors;
+  color: #ffffff;
+  position: relative;
+  margin-top: 550px;
+  margin-left: 50px;
+}
+#home .contenedor-banner1 .subtexto1 {
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+  margin-left: 50px;
+}
+#home .contenedor-banner2 img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+#home .contenedor-banner2 .capitulo-1 {
+  font-family: Maginors;
+  color: #ffffff;
+  position: relative;
+  margin-top: 550px;
+  margin-left: 50px;
+}
+#home .contenedor-banner2 .subtexto1 {
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+  margin-left: 50px;
 }
 
-#historia2 {
-  background-image: url(../media/biblio-academia.png);
-  overflow-x: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#personajes {
-  background: rgb(15, 175, 119);
-  background: radial-gradient(circle, rgb(15, 175, 119) 0%, rgb(7, 65, 48) 100%);
-}
-
-#media {
-  background-image: url(../media/fondo-nubes.png);
-  overflow-x: hidden;
-  background-size: cover;
-}
-
-/*-----------------------------------------------Query 1----------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
-@media (min-width: 412px) and (max-width: 575px) {
-  #home {
-    background-image: url(../media/fondo-home-412.png);
-    overflow-x: hidden;
-  }
-  #home .img-azeroth {
-    display: none;
-  }
-  #historia {
-    background-image: url(../media/faro-bastion.png);
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-repeat: no-repeat;
-  }
-  #historia footer {
-    margin-top: 130px;
-  }
-  #historia2 {
-    background-image: url(../media/comedor-academia.png);
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  #historia2 footer {
-    margin-top: 290px;
-  }
-  /*-----------------------------------------------Header-navbar-----------------------------------*/
-  nav {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-  }
-  .navbar button {
-    color: #ffffff;
-  }
-  .navbar a {
-    color: #ffffff;
-    font-family: Maginors;
-    font-size: 15px;
-  }
-  .navbar ul {
-    margin-right: 100px;
-  }
-  /*-----------------------------------------------contenido-home-----------------------------------------------*/
-  .contenedor-grid {
-    padding: 10px;
-  }
-  .fondo {
-    display: none;
-    visibility: hidden;
-  }
-  .titulo {
-    font-family: Maginors;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-  }
-  .subtitulo1 {
-    font-family: Maginors;
-    color: white;
-  }
-  .contenedor-logos img {
-    padding: 20px;
-  }
-  .contenedor-titulos p {
-    font-family: Maginors;
-    color: white;
-    visibility: hidden;
-  }
-  .contenedor-desc p {
-    font-family: "Jost", sans-serif;
-    color: white;
-  }
-  /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
-  #titulo-bastion {
-    font-family: Maginors;
-    color: white;
-  }
-  #texto-bastion {
-    font-family: "Jost", sans-serif;
-    color: white;
-  }
-  #contenido-historia1 {
-    margin-left: 10px;
-    margin-top: 80px;
-  }
-  /*-----------------------------------------------contenido personajes-----------------------------------------------*/
-  /*-----------------------------------------------Contenido Media----------------------------------------------------*/
-  #media footer {
-    margin-top: 420px;
-  }
-  .titulo-media {
-    font-family: "maginors", serif;
-    color: white;
-  }
-  /*-----------------------------------------------footer-----------------------------------------------*/
-  footer {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-    border-top: solid 1px white;
-  }
-  footer a {
-    font-family: "Jost", sans-serif;
-    color: white;
-  }
-  footer .ti-logo {
-    font-family: Maginors;
-    color: #ffffff;
-    margin-top: 30px;
-    font-size: 20px;
-  }
-  footer .sub-logo {
-    font-family: "Jost", sans-serif;
-    color: #ffffff;
-    font-size: 10px;
-  }
-  footer .discord {
-    font-family: "Jost", sans-serif;
-    color: #ffffff;
-    font-size: 10px;
-  }
-  footer img {
-    margin-top: 20px;
-  }
-  footer .discord-img {
-    display: none;
-  }
-}
-/*-----------------------------------------------Query 2-----------------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
-@media (min-width: 1200.99px) {
-  /*-----------------------------------------------Header-navbar-----------------------------------------------*/
-  nav {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-  }
-  .navbar-brand {
-    margin-left: 100px;
-  }
-  .navbar a {
-    color: #ffffff;
-    font-family: Maginors;
-    font-size: 15px;
-  }
-  .navbar ul {
-    margin-right: 100px;
-  }
-  /*-----------------------------------------------contenido-home-----------------------------------------------*/
-  .contenedor-grid img {
-    position: absolute;
-    width: 100%;
-  }
-  .titulo {
-    font-family: Maginors;
-    color: white;
-    font-size: 120px;
-    margin-top: 350px;
-  }
-  .subtitulo1 {
-    font-family: Maginors;
-    color: white;
-    margin-top: 150px;
-  }
-  .contenedor-logos img {
-    padding: 10px;
-    margin-top: 70px;
-  }
-  .contenedor-titulos p {
-    font-family: Maginors;
-    color: white;
-  }
-  .contenedor-desc p {
-    font-family: "Jost", sans-serif;
-    color: white;
-  }
-  /*-----------------------------------------------CONTENIDO BASTION-ACADEMIA-----------------------------------------------*/
-  #titulo-bastion {
-    font-family: "maginors", serif;
-    color: white;
-    font-size: 50px;
-  }
-  #texto-bastion {
-    font-family: "Jost", sans-serif;
-    color: white;
-    font-size: 20px;
-  }
-  #contenido-historia1 {
-    margin-left: 50px;
-    margin-top: 100px;
-  }
-  /*-----------------------------------------------CONTENIDO MEDIA-----------------------------------------------*/
-  .titulo-media {
-    font-family: "maginors", serif;
-    color: white;
-  }
-  #carrusel h5 {
-    font-family: "maginors", serif;
-  }
-  /*-----------------------------------------------footer-----------------------------------------------*/
-  footer {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-    border-top: solid 1px white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  footer a {
-    font-family: "Jost", sans-serif;
-    color: white;
-  }
-  footer .ti-logo {
-    font-family: Maginors;
-    color: #ffffff;
-    margin-top: 40px;
-    font-size: 25px;
-  }
-  footer .sub-logo {
-    font-family: "Jost", sans-serif;
-    color: #ffffff;
-  }
-  footer img {
-    margin-top: 30px;
-  }
-  footer .discord {
-    margin-top: 30px;
-    font-family: "Jost", sans-serif;
-    color: #ffffff;
-  }
-  /*-----------------------------------------------CONTENIDO PERSONAJES-----------------------------------------------*/
-  .contenedor-personajes p {
-    font-family: "Jost", sans-serif;
-    color: white;
-  }
-}
-/*-----------------------------------------------Query 3-----------------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
-@media (min-width: 1919px) {
-  #home .subtitulo1 {
-    margin-top: 250px;
-  }
-  #home .titulo {
-    margin-top: 600px;
-  }
-  #historia footer {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-    border-top: solid 1px white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 300px;
-  }
-  #historia2 footer {
-    background: rgba(0, 0, 0, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
-    border-top: solid 1px white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 350px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-}/*# sourceMappingURL=styles.css.map */
+/*BASTION*/
+/*ACADEMIA*/
+/*MEDIA*/
+/*UNETE*//*# sourceMappingURL=styles.css.map */
