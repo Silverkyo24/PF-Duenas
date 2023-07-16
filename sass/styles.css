@@ -100,6 +100,71 @@ html {
 }
 
 /*BASTION*/
+#bastion {
+  background-image: url(../media/plaza-bastion.png);
+  background-repeat: no-repeat;
+}
+#bastion #titulo-bastion {
+  font-family: Maginors;
+  color: white;
+}
+#bastion #texto-bastion {
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+#bastion #contenido-historia1 {
+  margin-left: 150px;
+  margin-top: 150px;
+}
+#bastion #tarjeta {
+  background-color: black;
+  margin-top: 320px;
+}
+#bastion #tarjeta .card-title {
+  font-size: 25px;
+}
+
 /*ACADEMIA*/
+#academia {
+  background-image: url(../media/biblio-academia.png);
+  background-repeat: no-repeat;
+}
+
+#titulo-bastion {
+  font-family: Maginors;
+  color: white;
+}
+
+#texto-bastion {
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+
+#contenido-historia1 {
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+#tarjeta {
+  background-color: black;
+  margin-top: 320px;
+}
+#tarjeta .card-title {
+  font-size: 25px;
+}
+
 /*MEDIA*/
+#media {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(67, 6, 147) 35%, rgb(55, 0, 255) 100%);
+}
+#media footer {
+  margin-top: 50px;
+}
+
+.titulo-media {
+  font-family: "maginors", serif;
+  color: white;
+}
+
 /*UNETE*//*# sourceMappingURL=styles.css.map */

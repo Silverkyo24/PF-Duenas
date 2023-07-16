@@ -28,19 +28,19 @@ html {
     }
 }
 
-#footer{
-    .footer-top{
+#footer {
+    .footer-top {
         border-top: solid 1px #ffffff;
         border-bottom: solid 1px #ffffff;
         padding: 30px 0 30px 0;
     }
 
-    p{
+    p {
         font-family: Maginors;
-        color: #ffffff;   
+        color: #ffffff;
     }
 
-    a{
+    a {
         font-family: 'Jost', sans-serif;
         color: #ffffff;
         text-decoration: none;
@@ -58,9 +58,9 @@ html {
         margin-top: 350px;
     }
 
-    .subt{
+    .subt {
         font-family: 'Maven Pro', sans-serif;
-        color: #ffffff;  
+        color: #ffffff;
     }
 
     .subtitulo {
@@ -125,6 +125,83 @@ html {
 }
 
 /*BASTION*/
+
+#bastion {
+    background-image: url(../media/plaza-bastion.png);
+    background-repeat: no-repeat;
+
+    #titulo-bastion {
+        font-family: Maginors;
+        color: white;
+    }
+
+    #texto-bastion {
+        font-family: "Jost", sans-serif;
+        color: white;
+    }
+
+    #contenido-historia1 {
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    #tarjeta {
+        background-color: black;
+        margin-top: 320px;
+
+        .card-title {
+            font-size: 25px;
+        }
+    }
+}
+
 /*ACADEMIA*/
+
+#academia {
+    background-image: url(../media/biblio-academia.png);
+    background-repeat: no-repeat;
+}
+
+#titulo-bastion {
+    font-family: Maginors;
+    color: white;
+}
+
+#texto-bastion {
+    font-family: "Jost", sans-serif;
+    color: white;
+}
+
+#contenido-historia1 {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+#tarjeta {
+    background-color: black;
+    margin-top: 320px;
+
+    .card-title {
+        font-size: 25px;
+    }
+}
+
 /*MEDIA*/
+
+#media {
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(67, 6, 147, 1) 35%, rgba(55, 0, 255, 1) 100%);
+
+
+    footer {
+        margin-top: 50px;
+    }
+}
+
+.titulo-media {
+    font-family: "maginors", serif;
+    color: white;
+}
+
 /*UNETE*/

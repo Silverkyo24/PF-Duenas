@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="sass/styles.css" />
   <script src="https://unpkg.com/scrollreveal@4"></script>
 	<script>
-		ScrollReveal({ duration: 10000 })
+		ScrollReveal({ duration: 5000 })
 	</script>
   <title>Reborn from Ashes - Comunidad de Rol</title>
   <link rel="icon" href="media/logorfa.png" />
@@ -24,13 +24,14 @@
 
 <body class="bg-black" id="home">
   <header>
-    <nav class="navbar navbar-expand-lg bg-black"> <a class="navbar-brand" href="index.html">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm bg-black"> <a class="navbar-brand" href="index.html">
         <img src="media/NUEVO LOGO.svg" alt="logo-navbar">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarnav">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="pages/bastion.html">BASTIÓN SURCAMAREAS</a>
@@ -142,6 +143,12 @@
     ScrollReveal().reveal(".imagenes", { delay:2500 })
     ScrollReveal().reveal(".titulo-imagenes", { delay:3000 })
   </script>
+  <script
+  defer
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"
+></script>
 </body>
 
 </html>

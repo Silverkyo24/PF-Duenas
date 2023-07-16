@@ -5,89 +5,167 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Reborn From Ashes es una comunidad de rol que hace uso de Epsilon WoW, un servidor All GM, el cual permite usar assets de World of Warcraft como modelos y hechizos para crear zonas custom.">
+    <meta name="keywords"
+        content="WOW world of Warcraft Epsilon RPH Roleplay Heaven servidor battle for Azeroth Shadowlands rol roleplay español Latam Latinoamerica D&D Dragonflight Warlords of Draenor Mists of Pandaria Legion Cataclysm Wrath of the Lich King fantasia medieval España Magia">
     <!--BS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../sass/styles.css" />
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        ScrollReveal({ duration: 10000 })
+    </script>
     <title>Academia Auralis-Hext</title>
     <link rel="icon" href="../media/logorfa.png" />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-		ScrollReveal({ duration: 1000 })
-	</script>
 </head>
 
-<body id="historia2">
+<body class="bg-black" id="academia">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
-            <div class="container-fluid">
-                <a class="navbar-brand fs-1" href="../index.html">re</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../pages/bastion.html">BASTION SURCAMAREAS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/academia.html">ACADEMIA AURALIS-HEXT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/personajes.html">PERSONAJES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/media.html">media</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg bg-black"> <a class="navbar-brand" href="../index.html">
+                <img src="../media/NUEVO LOGO.svg" alt="logo-navbar">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/bastion.html">BASTIÓN SURCAMAREAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACADEMIA AURALIS-HEXT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/media.html">MEDIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/como-jugar.html">¿COMO JUGAR?</a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
-    <div id="contenido-historia1" class="container-fluid">
-        <div class="row row-cols-2">
-            <div class="col-2 text-center">
-                <img src="../media/logo-academia-sm-white.png" class="img-fluid" alt="logo-academia">
+    <main>
+        <div id="contenido-historia1" class="container-fluid">
+            <div class="row row-cols-2">
+                <div class="col-2 text-center">
+                    <img src="../media/logo-academia-sm-white.png" class="img-fluid" alt="logo-academia">
+                </div>
+                <div class="col align-self-center">
+                    <p class="display-4" id="titulo-bastion">ACADEMIA AURALIS-HEXT</p>
+                </div>
             </div>
-            <div class="col align-self-center">
-                <p id="titulo-bastion">ACADEMIA AURALIS-HEXT</p>
+            <div class="row row-cols-2">
+                <div class="col-2"></div>
+                <div class="col">
+                    <p id="texto-bastion">La Academia, es una organización dedicada a la instrucción de las
+                        escuelas arcanas menos convencionales, la Academia esta en busca de Aventureros experimentados
+                        para
+                        explorar las ruinas de una macabra estructura recien descubierta.</p>
+                </div>
             </div>
         </div>
-        <div class="row row-cols-2">
-            <div class="col-2"></div>
-            <div class="col">
-                <p id="texto-bastion">La Academia, es una organización dedicada a la instrucción de las
-                    escuelas arcanas menos convencionales, la Academia esta en busca de Aventureros experimentados para
-                    explorar las ruinas de una macabra estructura recien descubierta.</p>
+        <section id="tarjeta" class="container-fluid">
+            <div class="row m-3">
+                <div class="card text-center col-xl m-2">
+                    <img src="../media/silverian.png" class="img-fluid m-2" alt="nemus" />
+                    <div class="card-body">
+                        <h2 class="card-title">Silverian Auralis-Hext</h2>
+                        <p class="card-text text-start">
+                            Silverian es el pequeño pero orgulloso director de la academia, junto con su esposa y su
+                            protegida, imparten clases a jovenes magos, sin embargo siempre se encuentra ausente ya que
+                            se encuentra en una mision para encontrar algo...
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-center col-xl m-2">
+                    <img src="../media/marco-trix.png" class="img-fluid m-2" alt="nemus" />
+                    <div class="card-body">
+                        <h2 class="card-title">Trixie Auralis-Hext</h2>
+                        <p class="card-text text-start">
+                            Trixie es una goblin que en sus propias palabras es hermosa, carismatica, unica y una muy
+                            talentosa ingeniera, junto con su meca P.W.R, busca rivales dignos para pelear y quizas
+                            ganar algo de oro en apuestas ilegales.
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-center col-xl m-2">
+                    <img src="../media/marco-nada.png" class="img-fluid m-2" alt="nemus" />
+                    <div class="card-body">
+                        <h2 class="card-title">Icht-Inanis "Nada"</h2>
+                        <p class="card-text text-start">
+                            Nada es un ente de inmenso poder, capaz de doblar las leyes de la realidad a su gusto, sin
+                            embargo no le interesa hacerlo, solamente quiere encontrar a sus hermanos que se encuentran
+                            sellados por todo Azeroth, ¿por que?, no lo se y me da miedo preguntarle... "Fragmento de
+                            diario de Silverian"
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-center col-xl m-2">
+                    <img src="../media/marco-leli.png" class="img-fluid m-2" alt="nemus" />
+                    <div class="card-body">
+                        <h2 class="card-title">Lelianna Rose Wylenn</h2>
+                        <p class="card-text text-start">
+                            Lelianna es una joven maga bastante talentosa y es la protegida del director, es una de las
+                            sobrevivientes de la masacre de Nuevo Avalon, se dedica a enseñar a jovenes magos como
+                            pelear y que no sufran el mismo destino que sus compañeros.
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-center col-xl m-2">
+                    <img src="../media/marco-dorea.png" class="img-fluid m-2" alt="nemus" />
+                    <div class="card-body">
+                        <h2 class="card-title">Dorea Blackblade</h2>
+                        <p class="card-text text-start">
+                            Dorea es una de las Magisters de alto rango de Dalaran, es una elfa bastante bella y
+                            poderosa, su impecable magia de ilusion logra ebelezar hasta el mejor de los magos.
+                            ultimamente ha puesto su mirada sobre la academia, ella sabe que Silverian oculta algo alli
+                            y lo desea!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black" id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <p>ENLACES DE INTERÉS</p>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="#">Bastíon Surcamareas</a></li>
+                            <li><a href="../pages/academia.html">Academia Auralis-Hext</a></li>
+                            <li><a href="../pages/media.html">Media</a></li>
+                            <li><a href="../pages/como-jugar.html">¿Como jugar?</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <img src="media/NUEVO LOGO.svg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>  
-    <footer>
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-xl-1 col-3">
-                    <img src="../media/logo.svg" class="img-fluid" alt="logo2" />
-                </div>
-                <div class="col-xl-3 col-9">
-                    <p class="ti-logo">reBoRN FROM aSHES</p>
-                    <p class="sub-logo">
-                            A Roleplay Community Powered by
-                            <b><a href="https://epsilonwow.net/">Epsilon WoW</a></b>
-                    </p>
-                </div>
-                <div class="col-xl-2 col-2">
-                    <img src="../media/discord-sm.svg" class=" discord-img img-fluid" alt="Discord" />
-                </div>
-                <div class="col-xl-1 col">
-                    <p class="discord">placeholder/discord.gg</p>
-                </div>
-            </div>
+        <div class="container">
+            <div class="copyright"> &copy; Copyright <strong><span>Reborn From Ashes</span></strong>. Todos los derechos
+                reservados. </div>
+            <div class="credits"> Powered by <a href="https://epsilonwow.net/">Epsilon WoW</a> </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous">
-    </script>
+    <script
+  defer
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+  crossorigin="anonymous"
+></script>
 </body>
+
+
+
+</html>
