@@ -14,6 +14,10 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="sass/styles.css" />
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 10000 })
+	</script>
   <title>Reborn from Ashes - Comunidad de Rol</title>
   <link rel="icon" href="media/logorfa.png" />
 </head>
@@ -50,6 +54,7 @@
       <div class="row">
         <div class="col text-center">
           <p class="titulo display-1">reBORN FROM aSHES</p>
+          <p class="subt fs-2">¡Unete a la Aventura hoy!</p>
         </div>
       </div>
     </div>
@@ -119,6 +124,9 @@
               <li><a href="pages/como-jugar.html">¿Como jugar?</a></li>
             </ul>
           </div>
+          <div class="col">
+            <img src="media/NUEVO LOGO.svg" alt="">
+          </div>
         </div>
       </div>
     </div>
@@ -127,6 +135,13 @@
       <div class="credits"> Powered by <a href="https://epsilonwow.net/">Epsilon WoW</a> </div>
     </div>
   </footer>
+  <script>
+    ScrollReveal().reveal(".titulo", { delay: 500})
+    ScrollReveal().reveal(".subt", { delay: 1500})
+    ScrollReveal().reveal(".subtitulo", { delay:2000 })
+    ScrollReveal().reveal(".imagenes", { delay:2500 })
+    ScrollReveal().reveal(".titulo-imagenes", { delay:3000 })
+  </script>
 </body>
 
 </html>

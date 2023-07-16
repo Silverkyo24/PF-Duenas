@@ -45,7 +45,11 @@ html {
 #home .titulo {
   font-family: Maginors;
   color: #ffffff;
-  margin-top: 400px;
+  margin-top: 350px;
+}
+#home .subt {
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
 }
 #home .subtitulo {
   font-family: "Maven Pro", sans-serif;
