@@ -16,20 +16,28 @@ html {
     overflow-x: hidden;
 }
 
-@mixin titulos{
+@mixin titulos {
     font-family: Maginors;
-    color: #ffffff;  
+    color: #ffffff;
+}
+
+@mixin subtitulos {
+    font-family: 'Maven Pro', sans-serif;
+    color: #ffffff;
 }
 
 .navbar {
     a {
-        font-family: Maginors;
-        color: #ffffff;
+        @include titulos;
         font-size: 13px;
     }
 
     .nav-link:hover {
         color: #A228DF;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url(../media/navbar-toggler.svg);
     }
 }
 
@@ -63,13 +71,11 @@ html {
     }
 
     .subt {
-        font-family: 'Maven Pro', sans-serif;
-        color: #ffffff;
+        @include subtitulos;
     }
 
     .subtitulo {
-        font-family: 'Maven Pro', sans-serif;
-        color: #ffffff;
+        @include subtitulos;
         margin-top: 20px;
     }
 
@@ -78,8 +84,7 @@ html {
     }
 
     .titulo-imagenes {
-        font-family: 'Maven Pro', sans-serif;
-        color: #ffffff;
+        @include subtitulos;
         margin-top: 20px;
     }
 
@@ -164,7 +169,8 @@ html {
 }
 
 #titulo-bastion {
-    @include titulos;;
+    @include titulos;
+    ;
 }
 
 #texto-bastion {
@@ -190,8 +196,13 @@ html {
 
 #media {
 
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(67, 6, 147, 1) 35%, rgba(55, 0, 255, 1) 100%);
+    background-image: url(../media/img-nubes-rev.png);
+    background-repeat: no-repeat;
+
+    .media-sub{
+        @include subtitulos();
+        margin-top: 150px;
+    }
 
 
     footer {
@@ -203,4 +214,141 @@ html {
     @include titulos;
 }
 
-/*UNETE*/
+/*COMO JUGAR*/
+
+#como-jugar {
+    background-image: url(../media/skybox-azeroth.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .titulo-cj {
+        @include titulos;
+        margin-top: 50px;
+    }
+
+    .video {
+        margin-top: 20px;
+    }
+
+    .texto-cj {
+        @include subtitulos;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 412.99px) {
+
+    /*HOME*/
+    #home {
+        .titulo-imagenes {
+            p {
+                visibility: hidden;
+            }
+        }
+
+        .imagenes {
+            margin-top: 20px;
+
+            img {
+                max-width: 380px;
+                padding: 10px;
+            }
+
+        }
+
+        .contenedor-banner1 {
+            img {
+                width: 100%;
+                z-index: -1;
+            }
+
+            .capitulo-1 {
+                margin-top: 250px;
+                margin-left: 10px;
+            }
+
+            .subtexto1 {
+                margin-left: 10px;
+            }
+        }
+
+        .contenedor-banner2 {
+            img {
+                width: 100%;
+                z-index: -1;
+            }
+
+            .capitulo-1 {
+                margin-top: 250px;
+                margin-left: 10px;
+            }
+
+            .subtexto1 {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    /*BASTION*/
+
+    #bastion {
+
+        #contenido-historia1 {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+    }
+
+    /*ACADEMIA*/
+
+    #academia {
+
+        #contenido-historia1 {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+    }
+
+    /*MEDIA*/
+
+    #media{
+
+        .media-sub{
+            @include subtitulos();
+            margin-top: 150px;
+        }
+
+        .video-2{
+            aspect-ratio: 16 / 9;
+            width: 100%; 
+        }
+    }
+
+    /*COMO JUGAR*/
+
+    #como-jugar {
+
+        .embed-container {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+        }
+
+        .titulo-cj {
+            margin-top: 20px;
+        }
+    
+        .video {
+            margin-top: 10px;
+        }
+    
+        .texto-cj {
+            margin-top: 15px;
+        }
+    }
+
+
+
+}

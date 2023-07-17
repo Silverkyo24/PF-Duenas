@@ -21,6 +21,9 @@ html {
 .navbar .nav-link:hover {
   color: #A228DF;
 }
+.navbar .navbar-toggler-icon {
+  background-image: url(../media/navbar-toggler.svg);
+}
 
 #footer .footer-top {
   border-top: solid 1px #ffffff;
@@ -155,8 +158,13 @@ html {
 
 /*MEDIA*/
 #media {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(67, 6, 147) 35%, rgb(55, 0, 255) 100%);
+  background-image: url(../media/img-nubes-rev.png);
+  background-repeat: no-repeat;
+}
+#media .media-sub {
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
+  margin-top: 150px;
 }
 #media footer {
   margin-top: 50px;
@@ -167,4 +175,93 @@ html {
   color: #ffffff;
 }
 
-/*UNETE*//*# sourceMappingURL=styles.css.map */
+/*COMO JUGAR*/
+#como-jugar {
+  background-image: url(../media/skybox-azeroth.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#como-jugar .titulo-cj {
+  font-family: Maginors;
+  color: #ffffff;
+  margin-top: 50px;
+}
+#como-jugar .video {
+  margin-top: 20px;
+}
+#como-jugar .texto-cj {
+  font-family: "Maven Pro", sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+@media (max-width: 412.99px) {
+  /*HOME*/
+  #home .titulo-imagenes p {
+    visibility: hidden;
+  }
+  #home .imagenes {
+    margin-top: 20px;
+  }
+  #home .imagenes img {
+    max-width: 380px;
+    padding: 10px;
+  }
+  #home .contenedor-banner1 img {
+    width: 100%;
+    z-index: -1;
+  }
+  #home .contenedor-banner1 .capitulo-1 {
+    margin-top: 250px;
+    margin-left: 10px;
+  }
+  #home .contenedor-banner1 .subtexto1 {
+    margin-left: 10px;
+  }
+  #home .contenedor-banner2 img {
+    width: 100%;
+    z-index: -1;
+  }
+  #home .contenedor-banner2 .capitulo-1 {
+    margin-top: 250px;
+    margin-left: 10px;
+  }
+  #home .contenedor-banner2 .subtexto1 {
+    margin-left: 10px;
+  }
+  /*BASTION*/
+  #bastion #contenido-historia1 {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  /*ACADEMIA*/
+  #academia #contenido-historia1 {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  /*MEDIA*/
+  #media .media-sub {
+    font-family: "Maven Pro", sans-serif;
+    color: #ffffff;
+    margin-top: 150px;
+  }
+  #media .video-2 {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+  /*COMO JUGAR*/
+  #como-jugar .embed-container {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+  #como-jugar .titulo-cj {
+    margin-top: 20px;
+  }
+  #como-jugar .video {
+    margin-top: 10px;
+  }
+  #como-jugar .texto-cj {
+    margin-top: 15px;
+  }
+}/*# sourceMappingURL=styles.css.map */

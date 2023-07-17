@@ -24,7 +24,7 @@
 
 <body class="bg-black" id="home">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm bg-black"> <a class="navbar-brand" href="index.html">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm bg-black"> <a class="navbar-brand" href="../index.html">
         <img src="media/NUEVO LOGO.svg" alt="logo-navbar">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -66,15 +66,15 @@
         </div>
       </div>
       <div class="imagenes row text-center">
-        <div class="col-6">
+        <div class="col-xl-6 ol">
           <a href="pages/bastion.html"><img src="media/bastion-sin-marco.png" alt="img-bastion1"></a>
         </div>
-        <div class="col-6">
+        <div class="col-xl-6 col">
           <a href="pages/academia.html"><img src="media/academia-sin-marco.png" alt="img-academia1"></a>
         </div>
       </div>
       <div class="titulo-imagenes row text-center">
-        <div class="col-6">
+        <div class="col">
           <p class="fs-2">BASTIÓN SURCAMAREAS</p>
         </div>
         <div class="col">
@@ -84,27 +84,32 @@
     </div>
     <div class="contenedor-banner1">
       <div class="row">
-        <div class="col-12">
-          <img src="media/media-magia1.png" alt="">
-        </div>
-        <div class="col">
-          <p class="capitulo-1 display-5">LA GRAN EXPEDICIÓN EN KALIMDOR</p>
-        </div>
-        <div class="subtexto1 col-12">
-          <p class="fs-5">Silverian necesita aventureros que escolten su caravana por las junglas mas peligrosas de
-            Kalimdor.</p>
+        <div class="col-xl-12 col">
+          <img src="media/media-magia1.png" class="img-fluid" alt="banner1">
         </div>
       </div>
+      <div class="row"> 
+        <div class="col-xl-12 col">
+          <p class="capitulo-1 display-5">LA GRAN EXPEDICIÓN EN KALIMDOR</p>
+        </div>
+      </div>   
+      <div class="subtexto1 col-xl-12 col-10">
+          <p class="fs-5">Silverian necesita aventureros que escolten su caravana por las junglas mas peligrosas de
+            Kalimdor.</p>
+      </div> 
     </div>
     <div class="contenedor-banner2">
       <div class="row">
-        <div class="col-12">
-          <img src="media/media-2.png" alt="">
+        <div class="col-xl-12 col">
+          <img src="media/media-2.png" class="img-fluid" alt="banner2">
         </div>
-        <div class="col">
+      </div>
+      <div class="row">  
+        <div class="col-xl-12 col">
           <p class="capitulo-1 display-5">SOMBRAS DEL CONCILIO SOBRE PANDARIA</p>
         </div>
-        <div class="subtexto1 col-12">
+      </div>  
+        <div class="subtexto1 col-xl-12 col-10">
           <p class="fs-5">El Capitan "Nemus" lleva a su tripulacion a Pandaria en busqueda de pistas del nuevo plan del
             concilio en el continente.</p>
         </div>
@@ -141,7 +146,7 @@
     ScrollReveal().reveal(".subt", { delay: 1500})
     ScrollReveal().reveal(".subtitulo", { delay:2000 })
     ScrollReveal().reveal(".imagenes", { delay:2500 })
-    ScrollReveal().reveal(".titulo-imagenes", { delay:3000 })
+    ScrollReveal().reveal(".titulo-imagenes", { delay:2500 })
   </script>
   <script
   defer
