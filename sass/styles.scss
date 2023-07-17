@@ -18,18 +18,22 @@ html {
 
 @mixin titulos {
     font-family: Maginors;
-    color: #ffffff;
+    color: $color-texto;
 }
 
 @mixin subtitulos {
     font-family: 'Maven Pro', sans-serif;
-    color: #ffffff;
+    color: $color-texto;
 }
 
 @mixin texto-jost {
     font-family: 'Jost', sans-serif;
-    color: #ffffff;
+    color: $color-texto;
 }
+
+$color-texto: #ffffff;
+
+$color-hover: #A228DF;
 
 .navbar {
     a {
@@ -38,7 +42,7 @@ html {
     }
 
     .nav-link:hover {
-        color: #A228DF;
+        color: $color-hover;
     }
 
     .navbar-toggler-icon {
@@ -48,8 +52,8 @@ html {
 
 #footer {
     .footer-top {
-        border-top: solid 1px #ffffff;
-        border-bottom: solid 1px #ffffff;
+        border-top: solid 1px $color-texto;;
+        border-bottom: solid 1px $color-texto;;
         padding: 30px 0 30px 0;
     }
 
