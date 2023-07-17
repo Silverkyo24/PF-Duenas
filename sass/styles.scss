@@ -26,6 +26,11 @@ html {
     color: #ffffff;
 }
 
+@mixin texto-jost {
+    font-family: 'Jost', sans-serif;
+    color: #ffffff;
+}
+
 .navbar {
     a {
         @include titulos;
@@ -49,13 +54,11 @@ html {
     }
 
     p {
-        font-family: Maginors;
-        color: #ffffff;
+        @include titulos;
     }
 
     a {
-        font-family: 'Jost', sans-serif;
-        color: #ffffff;
+        @include texto-jost;
         text-decoration: none;
     }
 }
@@ -103,8 +106,7 @@ html {
         }
 
         .subtexto1 {
-            font-family: 'Jost', sans-serif;
-            color: #ffffff;
+            @include texto-jost;
             margin-left: 50px;
         }
     }
@@ -124,8 +126,7 @@ html {
         }
 
         .subtexto1 {
-            font-family: 'Jost', sans-serif;
-            color: #ffffff;
+            @include texto-jost;
             margin-left: 50px;
         }
     }
@@ -142,8 +143,7 @@ html {
     }
 
     #texto-bastion {
-        font-family: "Jost", sans-serif;
-        color: white;
+        @include texto-jost;
     }
 
     #contenido-historia1 {
@@ -174,8 +174,7 @@ html {
 }
 
 #texto-bastion {
-    font-family: "Jost", sans-serif;
-    color: white;
+    @include texto-jost;
 }
 
 #contenido-historia1 {
@@ -199,7 +198,7 @@ html {
     background-image: url(../media/img-nubes-rev.png);
     background-repeat: no-repeat;
 
-    .media-sub{
+    .media-sub {
         @include subtitulos();
         margin-top: 150px;
     }
@@ -314,16 +313,16 @@ html {
 
     /*MEDIA*/
 
-    #media{
+    #media {
 
-        .media-sub{
+        .media-sub {
             @include subtitulos();
             margin-top: 150px;
         }
 
-        .video-2{
+        .video-2 {
             aspect-ratio: 16 / 9;
-            width: 100%; 
+            width: 100%;
         }
     }
 
@@ -339,11 +338,11 @@ html {
         .titulo-cj {
             margin-top: 20px;
         }
-    
+
         .video {
             margin-top: 10px;
         }
-    
+
         .texto-cj {
             margin-top: 15px;
         }
