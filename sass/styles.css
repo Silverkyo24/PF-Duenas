@@ -106,7 +106,7 @@ html {
 }
 #bastion #titulo-bastion {
   font-family: Maginors;
-  color: white;
+  color: #ffffff;
 }
 #bastion #texto-bastion {
   font-family: "Jost", sans-serif;
@@ -132,7 +132,7 @@ html {
 
 #titulo-bastion {
   font-family: Maginors;
-  color: white;
+  color: #ffffff;
 }
 
 #texto-bastion {
@@ -163,8 +163,8 @@ html {
 }
 
 .titulo-media {
-  font-family: "maginors", serif;
-  color: white;
+  font-family: Maginors;
+  color: #ffffff;
 }
 
 /*UNETE*//*# sourceMappingURL=styles.css.map */

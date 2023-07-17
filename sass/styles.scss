@@ -16,6 +16,11 @@ html {
     overflow-x: hidden;
 }
 
+@mixin titulos{
+    font-family: Maginors;
+    color: #ffffff;  
+}
+
 .navbar {
     a {
         font-family: Maginors;
@@ -53,8 +58,7 @@ html {
     background-repeat: no-repeat;
 
     .titulo {
-        font-family: Maginors;
-        color: #ffffff;
+        @include titulos;
         margin-top: 350px;
     }
 
@@ -87,8 +91,7 @@ html {
         }
 
         .capitulo-1 {
-            font-family: Maginors;
-            color: #ffffff;
+            @include titulos;
             position: relative;
             margin-top: 550px;
             margin-left: 50px;
@@ -109,8 +112,7 @@ html {
         }
 
         .capitulo-1 {
-            font-family: Maginors;
-            color: #ffffff;
+            @include titulos;
             position: relative;
             margin-top: 550px;
             margin-left: 50px;
@@ -131,8 +133,7 @@ html {
     background-repeat: no-repeat;
 
     #titulo-bastion {
-        font-family: Maginors;
-        color: white;
+        @include titulos;
     }
 
     #texto-bastion {
@@ -163,8 +164,7 @@ html {
 }
 
 #titulo-bastion {
-    font-family: Maginors;
-    color: white;
+    @include titulos;;
 }
 
 #texto-bastion {
@@ -200,8 +200,7 @@ html {
 }
 
 .titulo-media {
-    font-family: "maginors", serif;
-    color: white;
+    @include titulos;
 }
 
 /*UNETE*/
