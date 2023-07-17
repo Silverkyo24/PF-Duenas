@@ -14,7 +14,10 @@
 /*CONTENIDO GRAL*/
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
+/*MIXIN*/
 
 @mixin titulos {
     font-family: Maginors;
@@ -31,9 +34,13 @@ html {
     color: $color-texto;
 }
 
+/*VARIABLES*/
+
 $color-texto: #ffffff;
 
 $color-hover: #A228DF;
+
+/*NAVBAR*/
 
 .navbar {
     a {
@@ -49,6 +56,8 @@ $color-hover: #A228DF;
         background-image: url(../media/navbar-toggler.svg);
     }
 }
+
+/*FOOTER*/
 
 #footer {
     .footer-top {
@@ -328,7 +337,7 @@ $color-hover: #A228DF;
     #media {
 
         .media-sub {
-            @include subtitulos();
+            @include subtitulos;
             margin-top: 150px;
         }
 
