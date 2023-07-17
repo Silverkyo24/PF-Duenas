@@ -119,6 +119,10 @@ html {
   margin-left: 150px;
   margin-top: 150px;
 }
+#bastion .titulo-pj1 {
+  font-family: Maginors;
+  color: #ffffff;
+}
 #bastion #tarjeta {
   background-color: black;
   margin-top: 320px;
@@ -146,6 +150,11 @@ html {
 #contenido-historia1 {
   margin-left: 150px;
   margin-top: 150px;
+}
+
+.titulo-pj2 {
+  font-family: Maginors;
+  color: #ffffff;
 }
 
 #tarjeta {

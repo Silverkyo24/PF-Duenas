@@ -151,6 +151,10 @@ html {
         margin-top: 150px;
     }
 
+    .titulo-pj1{
+        @include titulos;
+    }
+
     #tarjeta {
         background-color: black;
         margin-top: 320px;
@@ -180,6 +184,10 @@ html {
 #contenido-historia1 {
     margin-left: 150px;
     margin-top: 150px;
+}
+
+.titulo-pj2{
+    @include titulos;
 }
 
 #tarjeta {
