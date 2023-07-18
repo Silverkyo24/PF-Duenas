@@ -247,11 +247,18 @@ $color-hover: #A228DF;
     footer {
         margin-top: 50px;
     }
+
+
+    .titulo-media {
+         @include titulos;
+    }
+
+    .video-2{
+        max-width: 100%;
+    }
+
 }
 
-.titulo-media {
-    @include titulos;
-}
 
 /*COMO JUGAR*/
 
@@ -363,20 +370,12 @@ $color-hover: #A228DF;
             margin-top: 150px;
         }
 
-        .video-2 {
-            aspect-ratio: 16 / 9;
-            width: 100%;
-        }
     }
 
     /*COMO JUGAR*/
 
     #como-jugar {
 
-        .embed-container {
-            aspect-ratio: 16 / 9;
-            width: 100%;
-        }
 
         .titulo-cj {
             margin-top: 20px;

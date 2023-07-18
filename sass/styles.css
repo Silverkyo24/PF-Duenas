@@ -193,10 +193,12 @@ html {
 #media footer {
   margin-top: 50px;
 }
-
-.titulo-media {
+#media .titulo-media {
   font-family: Maginors;
   color: #ffffff;
+}
+#media .video-2 {
+  max-width: 100%;
 }
 
 /*COMO JUGAR*/
@@ -271,15 +273,7 @@ html {
     color: #ffffff;
     margin-top: 150px;
   }
-  #media .video-2 {
-    aspect-ratio: 16/9;
-    width: 100%;
-  }
   /*COMO JUGAR*/
-  #como-jugar .embed-container {
-    aspect-ratio: 16/9;
-    width: 100%;
-  }
   #como-jugar .titulo-cj {
     margin-top: 20px;
   }
