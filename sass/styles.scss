@@ -13,8 +13,8 @@
 
 /*CONTENIDO GRAL*/
 html {
-    overflow-x: hidden;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /*MIXIN*/
@@ -61,8 +61,10 @@ $color-hover: #A228DF;
 
 #footer {
     .footer-top {
-        border-top: solid 1px $color-texto;;
-        border-bottom: solid 1px $color-texto;;
+        border-top: solid 1px $color-texto;
+        ;
+        border-bottom: solid 1px $color-texto;
+        ;
         padding: 30px 0 30px 0;
     }
 
@@ -80,6 +82,8 @@ $color-hover: #A228DF;
 #home {
     background-image: url(../media/media-selva2.png);
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    
 
     .titulo {
         @include titulos;
@@ -150,6 +154,8 @@ $color-hover: #A228DF;
 #bastion {
     background-image: url(../media/plaza-bastion.png);
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    
 
     #titulo-bastion {
         @include titulos;
@@ -164,16 +170,21 @@ $color-hover: #A228DF;
         margin-top: 150px;
     }
 
-    .titulo-pj{
+    .titulo-pj {
         @include titulos;
     }
 
     #tarjeta {
         background-color: black;
         margin-top: 320px;
+        
 
         .card-title {
             font-size: 25px;
+        }
+
+        .card{
+            border: solid 2px #ffffff;
         }
     }
 }
@@ -183,6 +194,8 @@ $color-hover: #A228DF;
 #academia {
     background-image: url(../media/biblio-academia.png);
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    
 }
 
 #titulo-bastion {
@@ -199,7 +212,7 @@ $color-hover: #A228DF;
     margin-top: 150px;
 }
 
-.titulo-pj{
+.titulo-pj {
     @include titulos;
 }
 
@@ -210,6 +223,10 @@ $color-hover: #A228DF;
     .card-title {
         font-size: 25px;
     }
+
+    .card{
+        border: solid 2px #ffffff;
+    }
 }
 
 /*MEDIA*/
@@ -218,6 +235,8 @@ $color-hover: #A228DF;
 
     background-image: url(../media/img-nubes-rev.png);
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    
 
     .media-sub {
         @include subtitulos();
@@ -241,6 +260,8 @@ $color-hover: #A228DF;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
+    
 
     .titulo-cj {
         @include titulos;
@@ -261,6 +282,7 @@ $color-hover: #A228DF;
 
     /*HOME*/
     #home {
+
         .titulo-imagenes {
             p {
                 visibility: hidden;
@@ -271,15 +293,15 @@ $color-hover: #A228DF;
             margin-top: 20px;
 
             img {
-                max-width: 380px;
-                padding: 10px;
+                max-width: 350px;
+                padding: 20px;
             }
 
         }
 
         .contenedor-banner1 {
             img {
-                width: 100%;
+                width: 380px;
                 z-index: -1;
             }
 

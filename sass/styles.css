@@ -10,8 +10,8 @@
 }
 /*CONTENIDO GRAL*/
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*MIXIN*/
@@ -49,6 +49,7 @@ html {
 #home {
   background-image: url(../media/media-selva2.png);
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 #home .titulo {
   font-family: Maginors;
@@ -111,6 +112,7 @@ html {
 #bastion {
   background-image: url(../media/plaza-bastion.png);
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 #bastion #titulo-bastion {
   font-family: Maginors;
@@ -135,11 +137,15 @@ html {
 #bastion #tarjeta .card-title {
   font-size: 25px;
 }
+#bastion #tarjeta .card {
+  border: solid 2px #ffffff;
+}
 
 /*ACADEMIA*/
 #academia {
   background-image: url(../media/biblio-academia.png);
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 #titulo-bastion {
@@ -169,11 +175,15 @@ html {
 #tarjeta .card-title {
   font-size: 25px;
 }
+#tarjeta .card {
+  border: solid 2px #ffffff;
+}
 
 /*MEDIA*/
 #media {
   background-image: url(../media/img-nubes-rev.png);
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 #media .media-sub {
   font-family: "Maven Pro", sans-serif;
@@ -195,6 +205,7 @@ html {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 #como-jugar .titulo-cj {
   font-family: Maginors;
@@ -210,7 +221,7 @@ html {
   margin-top: 20px;
 }
 
-@media (max-width: 412.99px) {
+@media (max-width: 575.99px) {
   /*HOME*/
   #home .titulo-imagenes p {
     visibility: hidden;
@@ -219,11 +230,11 @@ html {
     margin-top: 20px;
   }
   #home .imagenes img {
-    max-width: 380px;
-    padding: 10px;
+    max-width: 350px;
+    padding: 20px;
   }
   #home .contenedor-banner1 img {
-    width: 100%;
+    width: 380px;
     z-index: -1;
   }
   #home .contenedor-banner1 .capitulo-1 {
