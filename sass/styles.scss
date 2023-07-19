@@ -83,7 +83,7 @@ $color-hover: #A228DF;
     background-image: url(../media/media-selva2.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+
 
     .titulo {
         @include titulos;
@@ -155,7 +155,7 @@ $color-hover: #A228DF;
     background-image: url(../media/plaza-bastion.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+
 
     #titulo-bastion {
         @include titulos;
@@ -177,13 +177,13 @@ $color-hover: #A228DF;
     #tarjeta {
         background-color: black;
         margin-top: 320px;
-        
+
 
         .card-title {
             font-size: 25px;
         }
 
-        .card{
+        .card {
             border: solid 2px #ffffff;
         }
     }
@@ -195,7 +195,7 @@ $color-hover: #A228DF;
     background-image: url(../media/biblio-academia.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+
 }
 
 #titulo-bastion {
@@ -224,7 +224,7 @@ $color-hover: #A228DF;
         font-size: 25px;
     }
 
-    .card{
+    .card {
         border: solid 2px #ffffff;
     }
 }
@@ -236,7 +236,7 @@ $color-hover: #A228DF;
     background-image: url(../media/img-nubes-rev.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+
 
     .media-sub {
         @include subtitulos();
@@ -250,11 +250,16 @@ $color-hover: #A228DF;
 
 
     .titulo-media {
-         @include titulos;
+        @include titulos;
     }
 
-    .video-2{
-        max-width: 100%;
+    .video-2 {
+        margin-top: 20px;
+
+        iframe {
+            height: 315px;
+            width: 560px;
+        }
     }
 
 }
@@ -268,7 +273,7 @@ $color-hover: #A228DF;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+
 
     .titulo-cj {
         @include titulos;
@@ -277,6 +282,11 @@ $color-hover: #A228DF;
 
     .video {
         margin-top: 20px;
+
+        iframe {
+            height: 315px;
+            width: 560px;
+        }
     }
 
     .texto-cj {
@@ -370,26 +380,42 @@ $color-hover: #A228DF;
             margin-top: 150px;
         }
 
-    }
-
-    /*COMO JUGAR*/
-
-    #como-jugar {
-
-
-        .titulo-cj {
-            margin-top: 20px;
-        }
-
-        .video {
+        .video-2 {
             margin-top: 10px;
+    
+            iframe {
+                width: 350px;
+                height: 200px;
+            }
         }
 
-        .texto-cj {
-            margin-top: 15px;
-        }
     }
-
-
 
 }
+
+/*COMO JUGAR*/
+
+#como-jugar {
+
+
+    .titulo-cj {
+        margin-top: 20px;
+    }
+
+    .video {
+        margin-top: 10px;
+
+        iframe {
+            width: 350px;
+            height: 200px;
+        }
+    }
+
+    .texto-cj {
+        margin-top: 15px;
+    }
+
+}
+
+
+

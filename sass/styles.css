@@ -198,7 +198,11 @@ html {
   color: #ffffff;
 }
 #media .video-2 {
-  max-width: 100%;
+  margin-top: 20px;
+}
+#media .video-2 iframe {
+  height: 315px;
+  width: 560px;
 }
 
 /*COMO JUGAR*/
@@ -216,6 +220,10 @@ html {
 }
 #como-jugar .video {
   margin-top: 20px;
+}
+#como-jugar .video iframe {
+  height: 315px;
+  width: 560px;
 }
 #como-jugar .texto-cj {
   font-family: "Maven Pro", sans-serif;
@@ -273,14 +281,25 @@ html {
     color: #ffffff;
     margin-top: 150px;
   }
-  /*COMO JUGAR*/
-  #como-jugar .titulo-cj {
-    margin-top: 20px;
-  }
-  #como-jugar .video {
+  #media .video-2 {
     margin-top: 10px;
   }
-  #como-jugar .texto-cj {
-    margin-top: 15px;
+  #media .video-2 iframe {
+    width: 350px;
+    height: 200px;
   }
+}
+/*COMO JUGAR*/
+#como-jugar .titulo-cj {
+  margin-top: 20px;
+}
+#como-jugar .video {
+  margin-top: 10px;
+}
+#como-jugar .video iframe {
+  width: 350px;
+  height: 200px;
+}
+#como-jugar .texto-cj {
+  margin-top: 15px;
 }/*# sourceMappingURL=styles.css.map */
