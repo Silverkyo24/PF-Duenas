@@ -88,7 +88,11 @@ $color-hover: #A228DF;
 
     .titulo {
         @include titulos;
-        margin-top: 350px;
+        margin-top: 10px;
+    }
+
+    .logo-home{
+        margin-top: 220px;
     }
 
     .subt {
