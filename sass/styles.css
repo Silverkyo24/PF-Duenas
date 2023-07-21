@@ -76,6 +76,10 @@ html {
   color: #ffffff;
   margin-top: 20px;
 }
+#home .contenedor-banner1 .capitulos {
+  font-family: Maginors;
+  color: #ffffff;
+}
 #home .contenedor-banner1 img {
   position: absolute;
   width: 100%;
@@ -247,7 +251,7 @@ html {
     padding: 20px;
   }
   #home .contenedor-banner1 img {
-    width: 380px;
+    width: 100%;
     z-index: -1;
   }
   #home .contenedor-banner1 .capitulo-1 {

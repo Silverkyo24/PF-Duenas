@@ -114,6 +114,11 @@ $color-hover: #A228DF;
     }
 
     .contenedor-banner1 {
+
+        .capitulos{
+            @include titulos;
+        }
+
         img {
             position: absolute;
             width: 100%;
@@ -324,7 +329,7 @@ $color-hover: #A228DF;
 
         .contenedor-banner1 {
             img {
-                width: 380px;
+                width: 100%;
                 z-index: -1;
             }
 
