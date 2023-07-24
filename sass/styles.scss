@@ -76,7 +76,7 @@ $color-hover: #A228DF;
         @include texto-jost;
         text-decoration: none;
     }
-   
+
 }
 
 /*HOME*/
@@ -91,7 +91,7 @@ $color-hover: #A228DF;
         margin-top: 10px;
     }
 
-    .logo-home{
+    .logo-home {
         margin-top: 220px;
     }
 
@@ -115,7 +115,7 @@ $color-hover: #A228DF;
 
     .contenedor-banner1 {
 
-        .capitulos{
+        .capitulos {
             @include titulos;
         }
 
@@ -165,7 +165,7 @@ $color-hover: #A228DF;
     background-image: url(../media/plaza-bastion.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
-    
+
 
 
     #titulo-bastion {
@@ -306,6 +306,8 @@ $color-hover: #A228DF;
     }
 }
 
+/*QUERIE MOBILE*/
+
 @media (max-width: 575.99px) {
 
     /*HOME*/
@@ -393,7 +395,7 @@ $color-hover: #A228DF;
 
         .video-2 {
             margin-top: 10px;
-    
+
             iframe {
                 width: 350px;
                 height: 200px;
@@ -428,5 +430,60 @@ $color-hover: #A228DF;
 
 }
 
+/*QUERIE TABLET*/
 
+@media (min-width: 575.99px) and (max-width: 1280.99px) {
 
+    /*HOME*/
+    #home {
+
+        .titulo-imagenes {
+            p {
+                visibility: hidden;
+            }
+        }
+
+        .imagenes {
+            margin-top: 20px;
+
+            img {
+                max-width: 800px;
+                padding: 20px;
+            }
+
+        }
+
+        .contenedor-banner1 {
+            img {
+                width: 100%;
+                z-index: -1;
+            }
+
+            .capitulo-1 {
+                margin-top: 250px;
+                margin-left: 10px;
+            }
+
+            .subtexto1 {
+                margin-left: 10px;
+            }
+        }
+
+        .contenedor-banner2 {
+            img {
+                width: 100%;
+                z-index: -1;
+            }
+
+            .capitulo-1 {
+                margin-top: 250px;
+                margin-left: 10px;
+            }
+
+            .subtexto1 {
+                margin-left: 10px;
+            }
+        }
+    }
+
+}

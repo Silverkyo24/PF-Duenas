@@ -238,6 +238,7 @@ html {
   margin-top: 20px;
 }
 
+/*QUERIE MOBILE*/
 @media (max-width: 575.99px) {
   /*HOME*/
   #home .titulo-imagenes p {
@@ -309,4 +310,41 @@ html {
 }
 #como-jugar .texto-cj {
   margin-top: 15px;
+}
+
+/*QUERIE TABLET*/
+@media (min-width: 575.99px) and (max-width: 1280.99px) {
+  /*HOME*/
+  #home .titulo-imagenes p {
+    visibility: hidden;
+  }
+  #home .imagenes {
+    margin-top: 20px;
+  }
+  #home .imagenes img {
+    max-width: 800px;
+    padding: 20px;
+  }
+  #home .contenedor-banner1 img {
+    width: 100%;
+    z-index: -1;
+  }
+  #home .contenedor-banner1 .capitulo-1 {
+    margin-top: 250px;
+    margin-left: 10px;
+  }
+  #home .contenedor-banner1 .subtexto1 {
+    margin-left: 10px;
+  }
+  #home .contenedor-banner2 img {
+    width: 100%;
+    z-index: -1;
+  }
+  #home .contenedor-banner2 .capitulo-1 {
+    margin-top: 250px;
+    margin-left: 10px;
+  }
+  #home .contenedor-banner2 .subtexto1 {
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=styles.css.map */
