@@ -297,6 +297,7 @@ $color-hover: #A228DF;
 
         li {
             @include subtitulos;
+            list-style-type: "✧";
         }
 
         p {

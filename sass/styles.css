@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* FUENTES --------------------------------------------------------------------
 //MAVEN PRO BOLD: font-family: 'Maven Pro', sans-serif;
 //MAGINORS: font-family: Maginors; 
@@ -230,6 +231,7 @@ html {
 #faq .preguntas li {
   font-family: "Maven Pro", sans-serif;
   color: #ffffff;
+  list-style-type: "✧";
 }
 #faq .preguntas p {
   font-family: "Jost", sans-serif;
