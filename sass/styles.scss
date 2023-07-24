@@ -118,6 +118,7 @@ $color-hover: #A228DF;
 
         .capitulos {
             @include titulos;
+            margin-top: 100px;
         }
 
         img {
@@ -351,6 +352,10 @@ $color-hover: #A228DF;
 
             .subtexto1 {
                 margin-left: 10px;
+            }
+
+            .capitulos{
+                margin-top: 10px;
             }
         }
 

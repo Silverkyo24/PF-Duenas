@@ -80,6 +80,7 @@ html {
 #home .contenedor-banner1 .capitulos {
   font-family: Maginors;
   color: #ffffff;
+  margin-top: 100px;
 }
 #home .contenedor-banner1 img {
   position: absolute;
@@ -266,6 +267,9 @@ html {
   }
   #home .contenedor-banner1 .subtexto1 {
     margin-left: 10px;
+  }
+  #home .contenedor-banner1 .capitulos {
+    margin-top: 10px;
   }
   #home .contenedor-banner2 img {
     width: 100%;
