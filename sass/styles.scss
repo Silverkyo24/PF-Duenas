@@ -276,9 +276,9 @@ $color-hover: #A228DF;
 }
 
 
-/*COMO JUGAR*/
+/*FAQ*/
 
-#como-jugar {
+#faq {
     background-image: url(../media/skybox-azeroth.png);
     width: 100%;
     background-size: cover;
@@ -291,18 +291,26 @@ $color-hover: #A228DF;
         margin-top: 50px;
     }
 
-    .video {
+    .preguntas {
+
+        li {
+            @include subtitulos;
+        }
+
+        p {
+            @include texto-jost;
+        }
+
+    }
+
+    .video-1 {
         margin-top: 20px;
+        margin-bottom: 20px;
 
         iframe {
             height: 315px;
             width: 560px;
         }
-    }
-
-    .texto-cj {
-        @include subtitulos;
-        margin-top: 20px;
     }
 }
 
@@ -404,18 +412,18 @@ $color-hover: #A228DF;
 
     }
 
-}
-
-/*COMO JUGAR*/
-
-#como-jugar {
 
 
-    .titulo-cj {
+   /*FAQ*/
+
+    #faq {
+
+
+      .titulo-cj {
         margin-top: 20px;
-    }
+       }
 
-    .video {
+      .video-1 {
         margin-top: 10px;
 
         iframe {
@@ -428,6 +436,7 @@ $color-hover: #A228DF;
         margin-top: 15px;
     }
 
+  }
 }
 
 /*QUERIE TABLET*/

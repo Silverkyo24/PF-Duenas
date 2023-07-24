@@ -212,30 +212,34 @@ html {
   width: 560px;
 }
 
-/*COMO JUGAR*/
-#como-jugar {
+/*FAQ*/
+#faq {
   background-image: url(../media/skybox-azeroth.png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
-#como-jugar .titulo-cj {
+#faq .titulo-cj {
   font-family: Maginors;
   color: #ffffff;
   margin-top: 50px;
 }
-#como-jugar .video {
-  margin-top: 20px;
-}
-#como-jugar .video iframe {
-  height: 315px;
-  width: 560px;
-}
-#como-jugar .texto-cj {
+#faq .preguntas li {
   font-family: "Maven Pro", sans-serif;
   color: #ffffff;
+}
+#faq .preguntas p {
+  font-family: "Jost", sans-serif;
+  color: #ffffff;
+}
+#faq .video-1 {
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+#faq .video-1 iframe {
+  height: 315px;
+  width: 560px;
 }
 
 /*QUERIE MOBILE*/
@@ -296,22 +300,21 @@ html {
     width: 350px;
     height: 200px;
   }
+  /*FAQ*/
+  #faq .titulo-cj {
+    margin-top: 20px;
+  }
+  #faq .video-1 {
+    margin-top: 10px;
+  }
+  #faq .video-1 iframe {
+    width: 350px;
+    height: 200px;
+  }
+  #faq .texto-cj {
+    margin-top: 15px;
+  }
 }
-/*COMO JUGAR*/
-#como-jugar .titulo-cj {
-  margin-top: 20px;
-}
-#como-jugar .video {
-  margin-top: 10px;
-}
-#como-jugar .video iframe {
-  width: 350px;
-  height: 200px;
-}
-#como-jugar .texto-cj {
-  margin-top: 15px;
-}
-
 /*QUERIE TABLET*/
 @media (min-width: 575.99px) and (max-width: 1280.99px) {
   /*HOME*/
