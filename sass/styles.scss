@@ -92,11 +92,12 @@ $color-hover: #A228DF;
     }
 
     .logo-home {
-        margin-top: 220px;
+        margin-top: 150px;
     }
 
     .subt {
         @include subtitulos;
+        margin-bottom: 100px;
     }
 
     .subtitulo {
