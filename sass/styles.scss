@@ -81,7 +81,7 @@ $color-hover: #A228DF;
 
 /*HOME*/
 #home {
-    background-image: url(../media/media-selva2.png);
+    background-image: url(../media/media-selva-prueba.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
 
@@ -164,7 +164,7 @@ $color-hover: #A228DF;
 /*BASTION*/
 
 #bastion {
-    background-image: url(../media/plaza-bastion.png);
+    background-image: url(../media/bastion-reduced.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
 
@@ -205,7 +205,7 @@ $color-hover: #A228DF;
 /*ACADEMIA*/
 
 #academia {
-    background-image: url(../media/biblio-academia.png);
+    background-image: url(../media/academia-reduced.png);
     background-repeat: no-repeat;
     overflow-x: hidden;
 
@@ -227,6 +227,7 @@ $color-hover: #A228DF;
 
 .titulo-pj {
     @include titulos;
+    margin-top: 50px;
 }
 
 #tarjeta {

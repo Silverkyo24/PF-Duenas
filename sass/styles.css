@@ -48,7 +48,7 @@ html {
 
 /*HOME*/
 #home {
-  background-image: url(../media/media-selva2.png);
+  background-image: url(../media/media-selva-prueba.png);
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -120,7 +120,7 @@ html {
 
 /*BASTION*/
 #bastion {
-  background-image: url(../media/plaza-bastion.png);
+  background-image: url(../media/bastion-reduced.png);
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -153,7 +153,7 @@ html {
 
 /*ACADEMIA*/
 #academia {
-  background-image: url(../media/biblio-academia.png);
+  background-image: url(../media/academia-reduced.png);
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -176,6 +176,7 @@ html {
 .titulo-pj {
   font-family: Maginors;
   color: #ffffff;
+  margin-top: 50px;
 }
 
 #tarjeta {
